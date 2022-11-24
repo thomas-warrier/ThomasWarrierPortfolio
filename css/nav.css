@@ -1,0 +1,26 @@
+.navbar .container{
+    padding: 30px;
+    max-width: 1400px;
+}
+
+.navbar-name{
+    font-weight: var(--fontweight-bold);
+    text-transform: uppercase;
+}
+
+.navbar-nav {
+    list-style: none;
+}
+
+nav-item:hover::after{
+    content: "";
+    height: 5px;
+    width: inherit;
+    color: var(--secondary-color);
+    transition: 500ms ;
+}
+
+nav-item::after{
+    width: 0;
+}
+
