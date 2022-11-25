@@ -1,16 +1,28 @@
-.navbar{
+
+.navbar {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.navbar .container{
+
+.navbar .container {
     padding: 30px;
-    max-width: 1200px;
+    max-width: 1200px; /*I set a max width so it doesn't take all the place and we can see that it's centered*/
     width: 80%;
-    
+    align-items: center;
+
 }
 
+.nav-link {
+    padding-top: .7rem;
+    padding-bottom: .7rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: var(--fontweight-normal);
+}
+/*The name in the nav bar*/
 .navbar-name{
+    font-size: var(--fontsize-bold);
     font-weight: var(--fontweight-bold);
     text-transform: uppercase;
 }
@@ -19,15 +31,24 @@
     list-style: none;
 }
 
-nav-item:hover::after{
+.nav-item {
+    position: relative;
+}
+
+/*nav item after hover*/
+.nav-item:hover::after {
+    width: 70%; 
+}
+/*nav item when not on hover*/
+.nav-item::after {
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: var(--secondary-color);
     content: "";
-    height: 5px;
-    width: inherit;
-    color: var(--secondary-color);
-    transition: 500ms ;
+    height: 2px;
+    width: 0%;
+    transition: all 0.5s;
 }
-
-nav-item::after{
-    width: 0;
-}
-
