@@ -34,9 +34,6 @@ a{
     font-weight: var(--fontweight-normal);
 }
 
-nav{
-    backdrop-filter: blur(50px);
-}
 
 
 .flex-row{
