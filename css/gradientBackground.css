@@ -1,0 +1,80 @@
+body{
+    min-height: 100vh;
+    background-image: linear-gradient(80deg,#000243,#ECAFBD);
+    overflow: hidden;
+}
+
+#up{
+    position: absolute;
+    height: 800px;
+    width: 800px;
+    border-radius: 50%;
+    background-image: linear-gradient(80deg,#0b0f97,#dd395f);
+    filter: blur(80px);
+    animation: down 40s infinite;
+}
+#down{
+    position: absolute;
+    right:0;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    background-image: linear-gradient(80deg,#464ce3,#d4758b);
+    filter: blur(80px);
+    animation: up 30s infinite;
+}
+
+#left{
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    background-image: linear-gradient(80deg,#6b6fe5,#db0033);
+    filter: blur(80px);
+    animation: left 30s 1 infinite;
+}
+
+#right{
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    background-image: linear-gradient(80deg,#141996,#af4860);
+    filter: blur(80px);
+    animation: right 40s .5s infinite;
+}
+
+@keyframes up{
+    0%,100%{
+       bottom:-100px; 
+    }
+    70%{
+        bottom:700px;
+    }
+}
+
+@keyframes down{
+    0%,100%{
+       top:-100px; 
+    }
+    70%{
+        top:700px;
+    }
+}
+@keyframes left{
+    0%,100%{
+       left:-100px; 
+    }
+    70%{
+        left:1300px;
+    }
+}
+@keyframes right{
+    0%,100%{
+       right:-100px; 
+    }
+    70%{
+        right:1300px;
+    }
+}
+
