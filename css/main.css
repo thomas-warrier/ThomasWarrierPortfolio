@@ -5,6 +5,7 @@
     --font-family: "Poppins";
 
     --fontweight-bold: 900;
+    --fontweight-semibold:800;
     --fontweight-normal: 400;
 
     --fontsize-normal: 16px;
@@ -21,6 +22,7 @@
 
 body {
     background-color: black;
+    font-family: var(--font-family);
 }
 
 .container {
@@ -37,18 +39,30 @@ a {
 
 h1 {
     font-size: 60px;
-    color: #fff;
+    color: var(--primary-color);
     line-height: 1.2;
-    font-weight: var(--fontweight-bold);
+    font-weight: var(--fontweight-semibold);
 }
-span{
-    color: #ffbd39;
+
+.txt{
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
 }
 
 h2{
     font-size: 30px;
     font-weight: var(--fontweight-normal);
+    color: var(--primary-color);
 }
+
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+  }
 
 .flex-row {
     display: flex;

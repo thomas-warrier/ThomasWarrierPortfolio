@@ -1,0 +1,4 @@
+.txt span{
+    color: var(--secondary-color);
+    font-weight: var(--fontweight-semibold);
+}
