@@ -1,0 +1,80 @@
+.item-wrap {
+    position: relative;
+}
+
+.image-wrapper {
+    overflow: hidden;
+    height: fit-content;
+    width: 500px;
+    background-color: black;
+    background: black;
+}
+
+.item-wrap img {
+    max-width: 100%;
+    height: auto;
+
+    /*compatibilité firefox*/
+    -moz-transition: all 0.5s ease-in-out;
+    /*compatibilité opéra*/
+    -o-transition: all 0.5s ease-in-out;
+    /*compatibilité chrome*/
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+
+}
+
+
+
+.item-wrap img:hover {
+    width: 100%;
+
+    filter: grayscale(60%) brightness(50%);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+
+    -moz-transition: all 0.5s ease-in-out;
+    /*compatibilité firefox*/
+    -o-transition: all 0.5s ease-in-out;
+    /*compatibilité opéra*/
+    -webkit-transition: all 0.5s ease-in-out;
+    /*compatibilité chrome*/
+    transition: all 0.5s ease-in-out;
+
+}
+
+
+.project-title {
+    
+    font-size: var(--fontsize-project-title-item);
+    color: var(--primary-text-color);
+}
+
+.project-type {
+    font-size: var(--fontsize-project-type-item);
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: var(--secondary-text-color);
+}
+
+.item-wrap .project-item-text-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    animation: slide 1s forwards;
+}
+
+@-webkit-keyframes slide {
+
+    0% {
+        left: -200px;
+    }
+}
+
+@keyframes slide {
+    0% {
+        left: -200px;
+    }
+}
