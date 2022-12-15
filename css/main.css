@@ -2,6 +2,8 @@
     --primary-color: #fff;
     --secondary-color: #FFBD39;
 
+    --primary-text-color :#fff;
+    --secondary-text-color :rgba(255, 255, 255, 0.6);
     --font-family: "Poppins";
 
     --fontweight-bold: 900;
@@ -10,6 +12,8 @@
 
     --fontsize-normal: 16px;
     --fontsize-bold: 24px;
+    --fontsize-project-title-item: 1.25rem;
+    --fontsize-project-type-item: 0.75rem;
 }
 
 * {
@@ -47,7 +51,6 @@ h1 {
 .txt{
     align-items: center;
     justify-content: center;
-    z-index: 3;
 }
 
 h2{
@@ -57,7 +60,7 @@ h2{
 }
 
 .centered {
-    position: fixed;
+    position: absolute;
     top: 50%;
     left: 50%;
     /* bring your own prefixes */
