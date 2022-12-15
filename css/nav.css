@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    height: 15vh;
 }
 
 .navbar .container {
@@ -11,7 +11,6 @@
     max-width: 1200px; /*I set a max width so it doesn't take all the place and we can see that it's centered*/
     width: 80%;
     align-items: center;
-    z-index: 3;
 }
 
 .nav-link {

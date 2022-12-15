@@ -2,3 +2,17 @@
     color: var(--secondary-color);
     font-weight: var(--fontweight-semibold);
 }
+.hero{
+    height: 85vh;
+}
+#about-section{
+    background-image: linear-gradient(80deg,#F90038,#1C0152);
+}
+#background-container{
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+}
