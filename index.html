@@ -12,37 +12,75 @@
 	<link rel="stylesheet" href="css/nav.css">
 	<link rel="stylesheet" href="css/gradientBackground.css">
 	<link rel="stylesheet" href="css/home.css">
+	<link rel="stylesheet" href="css/portfolio.css">
 
 </head>
 
-<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-	<nav class="navbar">
-		<div class="container flex-row space-between">
-			<a class="navbar-name" href="index.html">Thomas Warrier</a>
+<body>
+	<section id="home-section">
+		<nav class="navbar">
+			<div class="container flex-row space-between">
+				<a class="navbar-name" href="index.html">Thomas Warrier</a>
 
 
-			<ul class="navbar-nav flex-row">
-				<li class="nav-item"><a href="#home-section" class="nav-link"><span>Accueil</span></a></li>
-				<li class="nav-item"><a href="#project-section" class="nav-link"><span>Projets</span></a></li>
-				<li class="nav-item"><a href="#skills-section" class="nav-link"><span>Compétence</span></a></li>
+				<ul class="navbar-nav flex-row">
+					<li class="nav-item"><a href="#home-section" class="nav-link"><span>Accueil</span></a></li>
+					<li class="nav-item"><a href="#about-section" class="nav-link"><span>Présentation</span></a></li>
+					<li class="nav-item"><a href="#project-section" class="nav-link"><span>Projets</span></a></li>
+					<li class="nav-item"><a href="#skills-section" class="nav-link"><span>Compétence</span></a></li>
 
-			</ul>
+				</ul>
+			</div>
+		</nav>
+		<div id="background-container">
+			<section id="up"></section>
+			<section id="down"></section>
+			<section id="left"></section>
+			<section id="right"></section>
 		</div>
-	</nav>
-	<section id="up"></section>
-	<section id="down"></section>
-	<section id="left"></section>
-	<section id="right"></section>
-	<div class="txt flex-col centered" id="homepage-txt">
-		<span>Bonjour !</span>
-		<h1>
-			Je suis
-			<span>Thomas Warrier</span>
-		</h1>
-		<h2>
-			Étudiant en informatique
-		</h2>
-	</div>
+		<div class="hero">
+			<div class="txt flex-col centered" id="homepage-txt">
+				<span>Bonjour !</span>
+				<h1>
+					Je suis
+					<span>Thomas Warrier</span>
+				</h1>
+				<h2>
+					Étudiant en informatique
+				</h2>
+			</div>
+		</div>
 
-	
+	</section>
+	<section id="project-section">
+		<div id="project-wraper" class="flex-row">
+			<div class="item-wrap">
+				<div class="image-wrapper">
+					<img src="assets/subtitle_translator_presentation.jpg" alt="Netflix TV" width="500" height="500">
+				</div>
+				<div class="project-item-text-container">
+					<h3 class="project-title">Outil De Traduction Netflix</h3>
+					<span class="project-type">
+						Extension Web
+					</span>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="about-section">
+		<div>
+			<p>
+				attiré depuis tout petit par l'informatique, ce qui a concrétisé mon envie de me lancer dans
+				l'informatique
+				était l'envie de réaliser mes propres projets. J'ai donc commencé mon aventure au lycée en terminale
+				avec un site que j'avais réalisé pour une pizzeria avec un ami. Depuis mon envie d'évoluer et
+				d'apprendre ne m'a jamais quittée et continue de me
+				mener vers d'autre technologie. Mettre en pratique ce que j'apprends a travers mes projets personnels
+				est la façon la plus rapide que
+				j'ai trouvé pour progresser tout en m'amusant.
+			</p>
+		</div>
+	</section>
+
+
 </body>
