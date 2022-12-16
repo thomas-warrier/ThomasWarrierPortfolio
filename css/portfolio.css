@@ -3,6 +3,7 @@
 }
 
 .image-wrapper {
+    position: relative;
     overflow: hidden;
     height: fit-content;
     width: 500px;
@@ -26,7 +27,7 @@
 
 
 
-.item-wrap img:hover {
+.item-wrap img.active {
     width: 100%;
 
     filter: grayscale(60%) brightness(50%);
@@ -45,7 +46,7 @@
 
 
 .project-title {
-    
+    white-space: nowrap;
     font-size: var(--fontsize-project-title-item);
     color: var(--primary-text-color);
 }
@@ -60,21 +61,12 @@
 .item-wrap .project-item-text-container {
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: -200px;
     transform: translate(-50%, -50%);
     text-align: center;
-    animation: slide 1s forwards;
+    transition: 0.5s ease-out;
 }
 
-@-webkit-keyframes slide {
-
-    0% {
-        left: -200px;
-    }
-}
-
-@keyframes slide {
-    0% {
-        left: -200px;
-    }
+.item-wrap .project-item-text-container.active{
+    left: 50%;
 }
