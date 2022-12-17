@@ -2,6 +2,7 @@
     --primary-color: #fff;
     --secondary-color: #FFBD39;
     --background-color:#000;
+    --card-color:#1A1A1A;
 
     --primary-text-color :#fff;
     --secondary-text-color :rgba(255, 255, 255, 0.6);
@@ -13,6 +14,7 @@
 
     --fontsize-normal: 16px;
     --fontsize-bold: 24px;
+    --fontsize-subtitle:2rem;
     --fontsize-project-title-item: 1.15rem;
     --fontsize-project-type-item: 0.75rem;
 }
@@ -49,6 +51,10 @@ h1 {
     font-weight: var(--fontweight-semibold);
 }
 
+p{
+    text-align: center;
+}
+
 .txt{
     align-items: center;
     justify-content: center;
@@ -58,6 +64,14 @@ h2{
     font-size: 30px;
     font-weight: var(--fontweight-normal);
     color: var(--primary-color);
+}
+
+.subtitle{
+    font-size: var(--fontsize-subtitle );
+    font-weight: var(--fontweight-semibold);
+    padding-left: 2rem;
+    padding-top: 3rem;
+    text-align: center;
 }
 
 .centered {
