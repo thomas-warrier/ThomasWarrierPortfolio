@@ -1,0 +1,63 @@
+
+
+
+
+/*===================== début de la time line=====================*/
+
+.timeline-wrapper {
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+
+.timeline-wrapper .future::before{
+    position: absolute;
+    top: 14%;
+    content: "";
+    display: block;
+    width: 25rem;
+    height: 2px; /* définit l'épaisseur de la ligne à 2 pixels */
+    background-color: white; /* définit la couleur de la ligne en rouge */
+    margin: 0 auto;
+}
+.timeline-wrapper .future{
+    color: var(--primary-color);
+    padding-top: 4.25rem;
+}
+
+.timeline-item {
+    text-align: center;
+    width: 15rem;
+    position: relative;
+}
+
+.timeline-item .date {
+    position: relative;
+    color: var(--secondary-color);
+    font-size: var(--fontsize-project-title-item);
+    font-weight: var(--fontweight-bold);
+    padding-top: initial;
+}
+
+.timeline-item h3 {
+    padding-top: 1rem;
+    color: var(--primary-color);
+}
+
+.timeline-item .description {
+    padding-top: 0.5rem;
+    color: var(--primary-color);
+}
+
+.timeline-item .date::after {
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    content: "";
+    display: block;
+    width: 15rem;
+    height: 2px; /* définit l'épaisseur de la ligne à 2 pixels */
+    background-color: white; /* définit la couleur de la ligne en rouge */
+    margin: 0 auto;
+  }
+
+  /*===================== fin de la time line=====================*/

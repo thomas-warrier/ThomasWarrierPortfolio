@@ -1,6 +1,7 @@
 :root {
     --primary-color: #fff;
     --secondary-color: #FFBD39;
+    --background-color:#000;
 
     --primary-text-color :#fff;
     --secondary-text-color :rgba(255, 255, 255, 0.6);
@@ -12,7 +13,7 @@
 
     --fontsize-normal: 16px;
     --fontsize-bold: 24px;
-    --fontsize-project-title-item: 1.25rem;
+    --fontsize-project-title-item: 1.15rem;
     --fontsize-project-type-item: 0.75rem;
 }
 
@@ -79,4 +80,11 @@ h2{
 
 .space-between {
     justify-content: space-between;
+}
+
+.padding-container{
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
