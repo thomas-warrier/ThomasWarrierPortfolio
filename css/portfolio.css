@@ -1,13 +1,23 @@
+#project-wrapper{
+    text-align: center;
+}
+#item-wrapper{
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+
 .item-wrap {
     position: relative;
+    overflow: hidden;
 }
 
 .image-wrapper {
     position: relative;
     overflow: hidden;
+    width: 475px;
+    max-height: 316px;
     height: fit-content;
-    width: 500px;
-    background-color: black;
     background: black;
 }
 
@@ -22,7 +32,6 @@
     /*compatibilité chrome*/
     -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
-
 }
 
 
@@ -34,16 +43,23 @@
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 
-    -moz-transition: all 0.5s ease-in-out;
-    /*compatibilité firefox*/
-    -o-transition: all 0.5s ease-in-out;
-    /*compatibilité opéra*/
-    -webkit-transition: all 0.5s ease-in-out;
-    /*compatibilité chrome*/
-    transition: all 0.5s ease-in-out;
-
 }
 
+
+
+
+.item-wrap .project-item-text-container {
+    position: absolute;
+    top: 50%;
+    left: -300px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    transition: 0.5s ease-out;
+}
+
+.item-wrap .project-item-text-container.active {
+    left: 50%;
+}
 
 .project-title {
     white-space: nowrap;
@@ -56,17 +72,4 @@
     text-transform: uppercase;
     letter-spacing: .1rem;
     color: var(--secondary-text-color);
-}
-
-.item-wrap .project-item-text-container {
-    position: absolute;
-    top: 50%;
-    left: -200px;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    transition: 0.5s ease-out;
-}
-
-.item-wrap .project-item-text-container.active{
-    left: 50%;
 }
