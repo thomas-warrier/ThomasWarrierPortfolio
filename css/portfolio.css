@@ -6,19 +6,18 @@
     flex-wrap: wrap;
 }
 
-
-.item-wrap {
-    position: relative;
-    overflow: hidden;
-}
-
 .image-wrapper {
     position: relative;
     overflow: hidden;
-    width: 475px;
-    max-height: 316px;
+    width: 25rem;
+    max-height: 15rem;
     height: fit-content;
     background: black;
+}
+
+.item-wrap {
+  position: relative;
+  overflow: hidden;
 }
 
 .item-wrap img {
@@ -74,6 +73,56 @@
     color: var(--secondary-text-color);
 }
 
+/*===================== project modal ===============================*/
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed;
+  z-index: 1;
+  padding-top: 1rem;
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: var(--background-color);
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 60%;
+  border-radius: 10px;
+  height: 42rem;
+}
+
+.grid-project{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 3rem;
+}
+
+.grid-project h3{
+  color: var(--secondary-color);
+  text-align: left;
+}
+.grid-project p{
+  color: var(--primary-text-color);
+  text-align: left;
+  padding: 0.5rem;
+}
+
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
 
 /*===================== project caroussel ============================*/
 .carousel {
@@ -162,3 +211,13 @@
 }
   
 
+.slides-container {
+  height: calc(100vh - 2rem);
+  width: 100%;
+  display: flex;
+  overflow: scroll;
+  scroll-behavior: smooth;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
