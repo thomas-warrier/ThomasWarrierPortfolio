@@ -1,10 +1,18 @@
-#project-wrapper{
-    text-align: center;
+#project-section{
+  padding-top: 10rem;
 }
+#project-section h1{
+  color: var(--secondary-color);
+  text-align: center;
+}
+
+
 #item-wrapper{
     gap: 2rem;
     flex-wrap: wrap;
+    justify-content: center;
 }
+
 
 .image-wrapper {
     position: relative;
