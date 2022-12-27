@@ -27,16 +27,18 @@ function setProjectHoverListener(){
 }
 
 
+
 /*modal window*/
 function setModalEventListener(){
+    
     const itemWrap = document.querySelectorAll(".item-wrap");
     itemWrap.forEach(element=>{
         element.addEventListener("click",()=>{
-            const modal = element.querySelector(".modal")
+            const modal = element.querySelector(".modal");
             modal.style.display = "block";
-    
-            modal.querySelector(".close").addEventListener("click",()=>{
-                console.log("coucou");
+            
+            modal.querySelector(".close").addEventListener("click",(event)=>{
+                event.stopPropagation();
                 modal.style.display = "none";
             })
             // When the user clicks anywhere outside of the modal, close it
@@ -46,8 +48,8 @@ function setModalEventListener(){
                 }
               } 
     
-        })
-    })
+        });
+    });
 }
 
 
