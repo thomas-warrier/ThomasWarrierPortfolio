@@ -8,9 +8,7 @@
 .hero{
     height: 85vh;
 }
-#about-section{
-    background: var(--background-color);
-}
+
 #background-container{
     z-index: -1;
     position: absolute;

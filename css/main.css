@@ -17,6 +17,9 @@
     --fontsize-subtitle:2rem;
     --fontsize-project-title-item: 1.15rem;
     --fontsize-project-type-item: 0.75rem;
+
+    --font-size-carousel-text:0.80rem;
+    --font-size-carousel-counter:0.90rem;
 }
 
 * {
@@ -36,6 +39,13 @@ body {
     font-family: var(--font-family);
     color: var(--primary-color);
 }
+
+#about-section,#project-section{
+    background: var(--background-color);
+}
+/* #project-section{
+    background: var(--card-color);
+} */
 
 /* Les liens de navigations */
 a {
