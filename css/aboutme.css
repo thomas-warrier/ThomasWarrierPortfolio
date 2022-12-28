@@ -5,6 +5,32 @@
     text-align: center;
 }
 
+#about-section button{
+    font-family: var(--font-family);
+    font-weight: var(--fontweight-semibold);
+    font-size: var(--fontsize-normal);
+    color: var(--background-color);
+    background-color:var(--secondary-color) ;
+    border-radius: 10px;
+    border: none;
+    align-items: center;
+    padding: 0.5rem;
+    width: 15rem;
+    justify-content: center;
+    gap: 1rem;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+#about-section button:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+.paragraphe:first-of-type{
+    padding-bottom: 3rem;
+}
+
 .rubrique {
     align-items: center;
 }
@@ -109,6 +135,7 @@
     transform:translateY(-1.5rem);
     box-shadow: -10px 20px 10px var(--secondary-color);
 } 
+
 
 .passion-item img {
     position: absolute;

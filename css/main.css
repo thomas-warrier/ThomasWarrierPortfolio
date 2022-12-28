@@ -1,6 +1,6 @@
 :root {
     --primary-color: #fff;
-    --secondary-color: #FFBD39;
+    --secondary-color: #ffbd38;
     --background-color:#000;
     --card-color:#1A1A1A;
 
@@ -40,7 +40,7 @@ body {
     color: var(--primary-color);
 }
 
-#about-section,#project-section{
+#about-section,#project-section,#skill{
     background: var(--background-color);
 }
 /* #project-section{
@@ -111,4 +111,7 @@ h2{
     padding-right: 5rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
+}
+.small-boxshadow{
+    box-shadow: 0px 8px 15px rgb(255, 189, 57,0.5);
 }
