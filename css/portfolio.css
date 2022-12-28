@@ -1,5 +1,6 @@
 #project-section{
   padding-top: 10rem;
+  padding-bottom: 10rem;
 }
 #project-section h1{
   color: var(--secondary-color);
@@ -152,14 +153,18 @@
   justify-content: center;
 }
 .slider-wrapper img{
-  max-height: 20rem;
+  
   align-items: center;
 }
+
 .slider-wrapper {
   width: 70%;
   margin: 1rem;
   position: relative;
   overflow: hidden;
+}
+.slider-wrapper.grama{
+  width: 80%;
 }
 
 .slides-container {
