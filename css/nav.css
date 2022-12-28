@@ -4,11 +4,13 @@
     align-items: center;
     justify-content: center;
     height: 15vh;
+    width: 100%;
+    
 }
 
 .navbar .container {
     padding: 30px;
-    max-width: 1200px; /*I set a max width so it doesn't take all the place and we can see that it's centered*/
+    max-width: 1400px; /*I set a max width so it doesn't take all the place and we can see that it's centered*/
     width: 80%;
     align-items: center;
 }
