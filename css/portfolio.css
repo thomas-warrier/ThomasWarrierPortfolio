@@ -109,7 +109,12 @@
   border-radius: 10px;
   height: 100%;
 }
-
+.modal-content a{
+  color:var(--link-color) ;
+}
+.modal-content a:hover{
+    text-decoration: underline;
+}
 .grid-project{
   display: grid;
   grid-template-columns: 2fr 1fr;
