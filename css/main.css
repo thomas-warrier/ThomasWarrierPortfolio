@@ -3,6 +3,7 @@
     --secondary-color: #ffbd38;
     --background-color:#000;
     --card-color:#1A1A1A;
+    --link-color:#58A6FF;
 
     --primary-text-color :#fff;
     --secondary-text-color :rgba(255, 255, 255, 0.6);
@@ -29,6 +30,9 @@
 
 }
 
+html{
+    scroll-behavior: smooth;
+}
 
 body {
     background-color: black;
