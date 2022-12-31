@@ -3,7 +3,6 @@ setProjectHoverListener();
 setModalEventListener();
 setCarouselListener();
 
-
 /*project hover animation */
 
 
@@ -78,6 +77,9 @@ function setCarouselListener() {
     })
 
 }
+
+
+
 
 
 
