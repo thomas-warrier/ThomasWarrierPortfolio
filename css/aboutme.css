@@ -5,12 +5,12 @@
     text-align: center;
 }
 
-#about-section button{
+#about-section button {
     font-family: var(--font-family);
     font-weight: var(--fontweight-semibold);
     font-size: var(--fontsize-normal);
     color: var(--background-color);
-    background-color:var(--secondary-color) ;
+    background-color: var(--secondary-color);
     border-radius: 10px;
     border: none;
     align-items: center;
@@ -21,13 +21,15 @@
     transition: all 0.3s ease 0s;
     cursor: pointer;
 }
+
 #about-section button:hover {
     background-color: #2EE59D;
     box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
     color: #fff;
     transform: translateY(-7px);
-  }
-.paragraphe:first-of-type{
+}
+
+.paragraphe:first-of-type {
     padding-bottom: 3rem;
 }
 
@@ -89,16 +91,7 @@
     font-size: var(--fontsize-project-title-item);
     font-weight: var(--fontweight-bold);
     padding-top: initial;
-}
 
-.timeline-item h3 {
-    padding-top: 1rem;
-    color: var(--primary-color);
-}
-
-.timeline-item .description {
-    padding-top: 0.5rem;
-    color: var(--primary-color);
 }
 
 .timeline-item .date::after {
@@ -114,6 +107,43 @@
     /* définit la couleur de la ligne en rouge */
     margin: 0 auto;
 }
+
+.onedate {
+    position: relative;
+    color: var(--secondary-color);
+    font-size: var(--fontsize-project-title-item);
+    font-weight: var(--fontweight-bold);
+    padding-top: initial;
+    min-height: 3rem;
+    transform: translateY(35%);
+}
+
+.timeline-item .onedate::after {
+    position: absolute;
+    top: 25%;
+    left: 65%;
+    content: "";
+    display: block;
+    width: 15rem;
+    height: 2px;
+    /* définit l'épaisseur de la ligne à 2 pixels */
+    background-color: white;
+    /* définit la couleur de la ligne en rouge */
+    margin: 0 auto;
+}
+
+
+.timeline-item h3 {
+    padding-top: 1rem;
+    color: var(--primary-color);
+}
+
+.timeline-item .description {
+    padding-top: 0.5rem;
+    color: var(--primary-color);
+}
+
+
 
 /*===================== fin de la time line =====================*/
 
@@ -131,10 +161,11 @@
     height: 25rem;
     transition: all 0.35s ease-in-out;
 }
-.passion-item:hover{
-    transform:translateY(-1.5rem);
+
+.passion-item:hover {
+    transform: translateY(-1.5rem);
     box-shadow: -10px 20px 10px var(--secondary-color);
-} 
+}
 
 
 .passion-item img {
@@ -142,8 +173,8 @@
     top: 7%;
     left: 50%;
     transform: translate(-50%);
-    width:12rem;
-    
+    width: 12rem;
+
 }
 
 .passion-item h3 {
@@ -155,10 +186,10 @@
     transform: translate(-50%);
 }
 
-.passion-item p{
+.passion-item p {
     color: var(--primary-text-color);
     position: absolute;
     top: 70%;
     padding: 0.5rem;
-    
+
 }
