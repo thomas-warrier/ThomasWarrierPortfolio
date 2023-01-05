@@ -2,7 +2,7 @@
     white-space: nowrap;
 }
 .txt span{
-    color: var(--secondary-color);
+    color: var(--secondary-color); /*#ffff38*/
     font-weight: var(--fontweight-semibold);
 }
 .hero{
