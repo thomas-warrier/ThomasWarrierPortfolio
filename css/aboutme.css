@@ -143,6 +143,19 @@
     color: var(--primary-color);
 }
 
+@media all and (max-width:40em) {
+    .timeline-wrapper .future::before {
+        display: none;
+    }
+    
+
+    .timeline-item .date::after {
+        display: none;
+    }
+    .timeline-item .onedate::after {
+        display: none;
+    }  
+}
 
 
 /*===================== fin de la time line =====================*/
