@@ -112,3 +112,11 @@ footer .wave#wave4 {
     }
 
 }
+
+@media (max-width:600px) {
+    .contact{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 2rem;
+    }
+}
