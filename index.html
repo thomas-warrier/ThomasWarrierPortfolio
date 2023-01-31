@@ -5,8 +5,10 @@
 	<title>Portfolio Thomas Warrier</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+	<link rel="shortcut icon" href="assets/icons/logoPortfolio.png">
+	<link rel="apple-touch-icon" href="assets/icons/logoPortfolio.png">
 	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
 
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/nav.css">
@@ -14,10 +16,14 @@
 	<link rel="stylesheet" href="css/home.css">
 	<link rel="stylesheet" href="css/portfolio.css">
 	<link rel="stylesheet" href="css/aboutme.css">
+	<link rel="stylesheet" href="css/skill.css">
 	<link rel="stylesheet" href="css/footer.css">
+
 	<script src="jquery-3.6.3.js"></script>
+	<script src="scroll.js" defer></script>
 	<script src="script.js" defer></script>
 	<script src="navbarJQuery.js" defer></script>
+	
 </head>
 
 <body>
@@ -32,7 +38,7 @@
 					<li class="nav-item"><a href="#about-section" class="nav-link"><span>Présentation</span></a></li>
 					<li class="nav-item"><a href="#project-section" class="nav-link"><span>Projets</span></a></li>
 					<li class="nav-item"><a href="#skills-section" class="nav-link"><span>Compétences</span></a></li>
-					<li class="nav-item"><a href="#skills-section" class="nav-link"><span>Contact</span></a></li>
+					<li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
 
 				</ul>
 			</div>
@@ -126,7 +132,8 @@
 						<p>2018</p>
 					</div>
 					<h3>Stage CEGID</h3>
-					<p class="description">Mon stage de 3 ème chez Cegid, m'a donnée l'envie de travailler dans ce domaine.</p>
+					<p class="description">Mon stage de 3 ème chez Cegid, m'a donnée l'envie de travailler dans ce
+						domaine.</p>
 				</div>
 			</div>
 		</div>
@@ -471,13 +478,12 @@
 										&#8250;
 									</button>
 									<ul class="slides-container" id="slides-container">
-										
-										<li class="slide"><img src="assets/carousel-images/Crouskie/apercu1.png"
-												alt="">
+
+										<li class="slide"><img src="assets/carousel-images/Crouskie/apercu1.png" alt="">
 										</li>
-										<li class="slide"><img src="assets/carousel-images/Crouskie/apercu2.png"
-												alt=""></li>
-										
+										<li class="slide"><img src="assets/carousel-images/Crouskie/apercu2.png" alt="">
+										</li>
+
 
 									</ul>
 								</section>
@@ -588,11 +594,67 @@
 			</div>
 		</div>
 	</section>
-	<section id="skill">
+	<section id="skills-section">
 		<h1>Mes Compétences</h1>
-		<div>
+		<div class="skill-item flex-row clipath-first space-around">
+			<img src="assets/competences-icon/rea_app.png" alt="réalisation d'application">
+			<div class="text-container-skill left-text">
+				<h3>Réaliser un développement d'application</h3>
+				<p>Développer, c'est-à-dire concevoir, coder, tester et intégrer une solution informatique pour un
+					client.</p>
+			</div>
 
 		</div>
+		<div class="skill-item flex-row-rev space-around">
+			<img src="assets/competences-icon/optimiser.png" alt="optimisation d'application">
+			<div class="text-container-skill right-text">
+				<h3>Optimiser des applications</h3>
+				<p>Proposer des applications informatiques optimisées en fonction de critères spécifique : temps
+					d'éxécution, précision, consommations de ressources...</p>
+			</div>
+
+		</div>
+		<div class="skill-item flex-row clipath space-around">
+			<img src="assets/competences-icon/administrer système informatique.png" alt="">
+			<div class="text-container-skill left-text ">
+				<h3>Administrer des système informatique</h3>
+				<p>Installer, Configurer, mettre a disposition, maintenir en conditions opérationnelles des
+					infrastrucutres, des services et des réseaux et optimiser le système informatique d'une
+					organisation.</p>
+			</div>
+		</div>
+
+		<div class="skill-item flex-row-rev space-around">
+			<img src="assets/competences-icon/database.png" alt="">
+			<div class="text-container-skill right-text">
+				<h3>Concevoir,Gérer et Exploiter des bases de données </h3>
+				<p>Concevoir, gérer, administrer, et exploiter les données de l'entreprise et mettre a disposition toute
+					les
+					informations pour un bon pilotage de l'entreprise.</p>
+			</div>
+
+
+		</div>
+
+		<div class="skill-item flex-row clipath space-around">
+			<img src="assets/competences-icon/manage_project.png" alt="">
+			<div class="text-container-skill left-text">
+				<h3>Gérer un projet informatique</h3>
+				<p>Satisfaire les besoins des utilisateurs au regard de la chaîne de valeur du client, organiser et
+					piloter
+					un projet informatique avec des méthodes classiques ou agiles.</p>
+			</div>
+
+		</div>
+		<div class="skill-item flex-row-rev space-around">
+			<img src="assets/competences-icon/work_together.png" alt="">
+			<div class="text-container-skill right-text">
+				<h3>Collaborer au sein d'une équipe</h3>
+				<p>Acquérir,développer et exploiter les aptitudes nécessaires pour travailler efficacement dans une
+					équipe informatique.</p>
+			</div>
+		</div>
+
 	</section>
 
 	<section id="contact-section">
