@@ -1,5 +1,5 @@
 $(document).ready(function () {
-
+    let scrolled;
     $(".navbar-scroll").hide(); //Hide the navigation bar first
 
     $(window).scroll(function () {  //Listen for the window's scroll event
@@ -10,6 +10,15 @@ $(document).ready(function () {
             
         } else {
             $('.navbar-scroll').fadeOut("fast"); //Else hide it
+        }
+
+        
+        if($(window).scrollTop()<10 && !scrolled){
+            $([document.documentElement, document.body]).animate({
+                scrollTop: $("#about-section").offset().top
+            }, 1200);
+            scrolled=true;
+            
         }
     });
 
@@ -25,6 +34,10 @@ $(document).ready(function () {
 
         return elemTop <= docViewBottom;
     }
+
+    
+
+    
 
    
 
