@@ -4,7 +4,8 @@
     --background-color:#000;
     --card-color:#1A1A1A;
     --link-color:#58A6FF;
-
+    --clippath-color:#0f0e0e;
+    --skills-background-color: #1A1A1A ;
     --primary-text-color :#fff;
     --secondary-text-color :rgba(255, 255, 255, 0.6);
     --font-family: "Poppins";
@@ -63,6 +64,7 @@ h1 {
     color: var(--primary-color);
     line-height: 1.2;
     font-weight: var(--fontweight-semibold);
+
 }
 
 p{
@@ -105,9 +107,16 @@ h2{
     display: flex;
     flex-direction: column;
 }
+.flex-row-rev{
+    display: flex;
+    flex-direction: row-reverse;
+}
 
 .space-between {
     justify-content: space-between;
+}
+.space-around{
+    justify-content: space-around;
 }
 
 .padding-container{

@@ -2,6 +2,8 @@
 setProjectHoverListener();
 setModalEventListener();
 setCarouselListener();
+setModalSkillEventListener();
+
 
 /*project hover animation */
 
@@ -78,6 +80,55 @@ function setCarouselListener() {
 
 }
 
+/*modal window*/
+// function setModalSkillEventListener() {
+
+//     const itemWrap = document.querySelectorAll(".skill-item");
+//     itemWrap.forEach(element => {
+//         element.addEventListener("click", () => {
+//             const modal = element.querySelector(".modal");
+//             modal.style.display = "block";
+
+//             modal.querySelector(".close").addEventListener("click", (event) => {
+//                 event.stopPropagation();
+//                 modal.style.display = "none";
+//             })
+//             // When the user clicks anywhere outside of the modal, close it
+//             window.onclick = function (event) {
+//                 if (event.target == modal) {
+//                     modal.style.display = "none";
+//                 }
+//             }
+
+//         });
+//     });
+// }
+
+/*modal window*/
+function setModalSkillEventListener() {
+
+    const itemWrap = document.querySelectorAll(".skill-item");
+    itemWrap.forEach(element => {
+        element.addEventListener("click", () => {
+            const modal = element.querySelector(".modal");
+            const modalClone = modal.cloneNode(true)
+            $("body").append(modalClone);
+
+            modalClone.style.display = "block";
+            modalClone.querySelector(".close").addEventListener("click", (event) => {
+                event.stopPropagation();
+                modalClone.style.display = "none";
+            })
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function (event) {
+                if (event.target == modalClone) {
+                    modalClone.style.display = "none";
+                }
+            }
+
+        });
+    });
+}
 
 
 
