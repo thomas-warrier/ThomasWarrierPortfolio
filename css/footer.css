@@ -25,7 +25,7 @@ footer .subtitle {
 
 footer button {
     background-color: transparent;
-    font-family: var(--font-family);
+    font-family: var(--font-regular);
     outline: 2px solid rgba(0, 0, 0, .5);
     outline-offset: 0px;
     border: none;
@@ -35,7 +35,7 @@ footer button {
     height: 3rem;
     gap: 1rem;
     font-size: var(--fontsize-normal);
-    font-weight: var(--fontweight-normal);
+    
     transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
 }
 

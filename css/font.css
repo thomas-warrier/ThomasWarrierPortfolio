@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "Poppins-regular";
+    src: url('../font/Poppins/Poppins-Regular.ttf');
+  }
+@font-face {
+  font-family: "Poppins-black";
+  src: url('../font/Poppins/Poppins-Black.ttf');
+}
+
+@font-face {
+  font-family: "Poppins-extrabold";
+  src: url('../font/Poppins/Poppins-ExtraBold.ttf');
+}
+  

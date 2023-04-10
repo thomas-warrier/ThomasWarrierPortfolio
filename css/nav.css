@@ -20,12 +20,14 @@
     padding-bottom: .7rem;
     padding-left: 20px;
     padding-right: 20px;
-    font-weight: var(--fontweight-normal);
+    
+    font-family: var(--font-regular);
 }
 /*The name in the nav bar*/
 .navbar-name{
     font-size: var(--fontsize-bold);
-    font-weight: var(--fontweight-bold);
+    
+    font-family: var(--font-black);
     text-transform: uppercase;
 }
 

@@ -6,8 +6,8 @@
 }
 
 #about-section button {
-    font-family: var(--font-family);
-    font-weight: var(--fontweight-semibold);
+    font-family: var(--font-extrabold);
+    
     font-size: var(--fontsize-normal);
     color: var(--background-color);
     background-color: var(--secondary-color);
@@ -47,7 +47,7 @@
 
 .paragraphe span {
     color: var(--secondary-color);
-    font-weight: var(--fontweight-semibold);
+    font-family: var(--font-extrabold);
 }
 
 
@@ -89,7 +89,7 @@
     position: relative;
     color: var(--secondary-color);
     font-size: var(--fontsize-project-title-item);
-    font-weight: var(--fontweight-bold);
+    font-family: var(--font-black);
     padding-top: initial;
 
 }
@@ -112,7 +112,7 @@
     position: relative;
     color: var(--secondary-color);
     font-size: var(--fontsize-project-title-item);
-    font-weight: var(--fontweight-bold);
+    font-family: var(--font-black);
     padding-top: initial;
     min-height: 3rem;
     transform: translateY(35%);

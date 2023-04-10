@@ -3,7 +3,8 @@
 }
 .txt span{
     color: var(--secondary-color); /*#ffff38*/
-    font-weight: var(--fontweight-semibold);
+    font-family: var(--font-extrabold);
+    
 }
 .hero{
     height: 85vh;

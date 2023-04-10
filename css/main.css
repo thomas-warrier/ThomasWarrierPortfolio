@@ -9,6 +9,9 @@
     --primary-text-color :#fff;
     --secondary-text-color :rgba(255, 255, 255, 0.6);
     --font-family: "Poppins";
+    --font-regular:"Poppins-regular";
+    --font-black:"Poppins-black";
+    --font-extrabold:"Poppins-extrabold";
 
     --fontweight-bold: 900;
     --fontweight-semibold:800;
@@ -37,11 +40,11 @@ html{
 
 body {
     background-color: black;
-    font-family: var(--font-family);
+    font-family: var(--font-regular);
 }
 
 .container {
-    font-family: var(--font-family);
+    font-family: var(--font-regular);
     color: var(--primary-color);
 }
 
@@ -56,14 +59,15 @@ body {
 a {
     color: inherit;
     text-decoration: none;
-    font-weight: var(--fontweight-normal);
+    font-family: var(--font-regular);
 }
 
 h1 {
     font-size: 60px;
     color: var(--primary-color);
     line-height: 1.2;
-    font-weight: var(--fontweight-semibold);
+    font-family: var(--font-extrabold);
+    
 
 }
 
@@ -78,13 +82,14 @@ p{
 
 h2{
     font-size: 30px;
-    font-weight: var(--fontweight-normal);
+    font-family: var(--font-regular);
     color: var(--primary-color);
 }
 
 .subtitle{
     font-size: var(--fontsize-subtitle );
-    font-weight: var(--fontweight-semibold);
+    
+    font-family: var(--font-extrabold);
     padding-left: 2rem;
     padding-top: 3rem;
     text-align: center;
