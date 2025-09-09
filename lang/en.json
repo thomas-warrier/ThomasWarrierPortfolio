@@ -1,0 +1,356 @@
+{
+  "lang": "en",
+  "title": "Thomas Warrier Portfolio",
+  "name": "Thomas Warrier",
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hello!",
+    "intro": "I am",
+    "subtitle": "Computer Science Student"
+  },
+  "about": {
+    "title": "About Me",
+    "section1": {
+      "title": "Why I wanted to do computer science?",
+      "text": "Attracted to computers since I was very young, what made me want to start was creating my own projects. I began my journey in high school with a website I made for a pizzeria. Since then, my desire to evolve and learn has never left me and continues to drive me toward other technologies. Applying what I learn through my personal projects is the fastest way I've found to improve while having fun."
+    },
+    "downloadCV": "Download CV",
+    "timeline": {
+      "title": "My Journey",
+      "future": "What if we wrote the next chapter together?",
+      "engineerSchool": {
+        "title": "Engineering School",
+        "text": "I am currently studying engineering alternately at CPE Lyon"
+      },
+      "internship": {
+        "title": "CGI Internship",
+        "text": "I completed my third year of BUT at CGI and I continue with them for my engineering school"
+      },
+      "bachelor": {
+        "title": "BUT Computer Science",
+        "text": "I completed my BUT at IUT Lyon 1 specializing in application development"
+      }
+    },
+    "hobbies": {
+      "title": "What do I like in life?",
+      "text": "Computer science is not my only passion; I really enjoy badminton, which I have been playing for 2 years, and tennis, which I played for 9 years.",
+      "music": {
+        "title": "Listening to Music",
+        "text": "Music inspires me daily and is a great motivational tool for me"
+      },
+      "racketSports": {
+        "title": "Racket Sports",
+        "text": "Badminton, tennis, and squash are sports I really enjoy"
+      },
+      "discover": {
+        "title": "Discovering",
+        "text": "Discovering and learning new things gives me a sense of satisfaction"
+      },
+      "travel": {
+        "title": "Traveling",
+        "text": "Traveling is one of my main motivations. I love discovering other cultures"
+      }
+    }
+  },
+  "projects": {
+    "title": "My Projects",
+    "netflix": {
+      "alt": "Netflix TV",
+      "title": "Netflix Subtitle Translator Tool",
+      "type": "Web Extension",
+      "context": {
+        "title": "Context",
+        "text": "Imagine you are watching a series in English with English subtitles to improve. Suddenly, you encounter a word you don’t understand..."
+      },
+      "solution": {
+        "title": "Solution",
+        "text": "Display a translation popup directly in the Netflix player and allow it to be opened via a simple shortcut."
+      },
+      "projectType": {
+        "title": "Project Type",
+        "text": "Personal Project"
+      },
+      "technologies": {
+        "title": "Technologies used",
+        "text": "Javascript / HTML / CSS"
+      },
+      "links": {
+        "title": "Useful Links",
+        "github": "Github Link",
+        "firefox": "Firefox Extension",
+        "chrome": "Chrome Extension"
+      }
+    },
+    "ticket": {
+      "alt": "Photo of a phone with a digital ticket",
+      "title": "Cash Register Ticket Manager",
+      "type": "Android App",
+      "function": {
+        "title": "Functionality",
+        "text": "This app simplifies management of your digital receipts by allowing you to retrieve them directly from your email and display them in an organized manner on your Android device. With this project, you no longer need to carry papers and can access your receipts conveniently and quickly."
+      },
+      "firebase": {
+        "title": "Firebase",
+        "text": "This application uses an account system that allows you to create a profile and synchronize your data with an online database managed by Firebase. This synchronization allows you to access your receipts on all your devices, regardless of location or type. Using this application provides a simple and effective solution to manage your digital receipts."
+      },
+      "projectType": {
+        "title": "Project Type",
+        "text": "Personal Project"
+      },
+      "technologies": {
+        "title": "Technologies used",
+        "text": "Java / Kotlin / XML / Firebase"
+      },
+      "links": {
+        "title": "Useful Links",
+        "github": "Github Link",
+        "figma": "Figma Mockup",
+        "spec": "Specification Document"
+      }
+    },
+    "pizzeria": {
+      "alt": "Photo of a pizza",
+      "title": "Website for a Pizzeria",
+      "type": "Website",
+      "start": {
+        "title": "My First Steps in Computer Science",
+        "text": "This project was my very first creation. I made it in my last year of high school with a friend. At that time, I had no knowledge of HTML and CSS, so I had to figure out everything by myself."
+      },
+      "function": {
+        "title": "Functionality",
+        "text": "The website aims to present to visitors the story of the pizzeria and the dishes it offers. To complete this project, it was necessary to create a professional and attractive website adapted to different devices (desktop, tablet, smartphone). The website should be user-friendly and easy to navigate so visitors can quickly find the information they need. To save time, we used a free HTML/CSS template as a base."
+      },
+      "projectType": {
+        "title": "Project Type",
+        "text": "Personal Project"
+      },
+      "technologies": {
+        "title": "Technologies used",
+        "text": "HTML / CSS"
+      },
+      "links": {
+        "title": "Useful Links",
+        "website": "lapizzajo.fr",
+        "github": "Github Link"
+      }
+    },
+    "portfolio": {
+      "alt": "Photo of a phone with a portfolio website",
+      "title": "My Portfolio",
+      "type": "Website",
+      "goal": {
+        "title": "Project Goal",
+        "text": "Through my portfolio, I aimed to present my projects and skills in a professional and attractive way to a target audience: recruiters. It includes an introduction about myself to give an overview of my background and personality. The site highlights my projects with visuals and descriptions, and presents my skills clearly and concisely."
+      },
+      "projectType": {
+        "title": "Project Type",
+        "text": "Personal Project"
+      },
+      "technologies": {
+        "title": "Technologies used",
+        "text": "HTML / CSS / Javascript / JQuery"
+      },
+      "links": {
+        "title": "Useful Links",
+        "preview": "Portfolio Preview",
+        "github": "Github Link"
+      }
+    },
+    "crouskie": {
+      "alt": "Photo of a clothing brand website Crouskie",
+      "title": "Crouskie Web",
+      "type": "Website",
+      "presentation": {
+        "title": "Presentation",
+        "text": "The website was designed to present a fictional clothing brand we created with my project group. It is called Crouskie and revolves around the theme of cookies. Users can browse the catalog and collections, add items to their cart, and choose size and color. The website was made to provide an enjoyable and intuitive user experience."
+      },
+      "mypart": {
+        "title": "My Contribution",
+        "text": "For this project, I mainly developed the PHP part by implementing the Data Access Objects that connect the database to the website. I also worked on the HTML and CSS for the homepage and collections."
+      },
+      "projectType": {
+        "title": "Project Type",
+        "text": "University Project"
+      },
+      "technologies": {
+        "title": "Technologies used",
+        "text": "HTML / CSS / Javascript / PHP"
+      },
+      "pattern": {
+        "title": "Implemented Pattern",
+        "text": "Model View Controller (MVC)"
+      },
+      "links": {
+        "title": "Useful Links",
+        "preview": "Website Preview",
+        "github": "Github Link",
+        "spec": "Specification Document"
+      }
+    },
+    "graphmap": {
+      "alt": "Screenshot of the Graph-Map Java application",
+      "title": "Graph-Map Java Application",
+      "type": "Java Application",
+      "presentation": {
+        "title": "Presentation",
+        "text": "This project is designed to explore and analyze a graph-MAP through a human-machine interface, specifically a map containing nodes (locations or sites) and links (roads), accessible via a graphical interface. The project originated from a study on mathematical graphs during my studies at the IUT."
+      },
+      "projectType": {
+        "title": "Project Type",
+        "text": "University project in pairs"
+      },
+      "technologies": {
+        "title": "Technologies used",
+        "text": "Java / Java Swing"
+      },
+      "links": {
+        "title": "Useful Link",
+        "github": "Github Link"
+      }
+    }
+  },
+  "skills": {
+    "title": "My Skills",
+    "c1": {
+      "alt": "application development",
+      "subtitle": "Skills acquired during my internship at CGI",
+      "text": "During my internship, I gained knowledge in Angular and Spring. I learned how to design, develop, and test secure and efficient web applications. I also learned to use Maven and Git to manage the application lifecycle. I strengthened my skills in unit and integration testing.",
+      "modal": {
+        "dev": {
+          "title": "Application Development",
+          "text": "Develop (code, test, integrate) an IT solution for a client, respecting requirements, applying algorithmic principles, and ensuring code quality and documentation."
+        },
+        "fullapp": {
+          "title": "From requirements to a complete application",
+          "text1": "Develop and implement functional and non-functional specifications based on requirements.",
+          "text2": "Verify and validate the quality of the application through testing."
+        },
+        "management": {
+          "title": "Project Management",
+          "text": "Skills developed: Communication, Organization, Problem-solving, Teamwork, Time management."
+        },
+        "projects": {
+          "title": "Projects",
+          "p1": "Subtitle Translator",
+          "p2": "Graph Map",
+          "p3": "Etiket: Cash Register Management App",
+          "p4": "E-commerce Website: Crouskie"
+        }
+      }
+    },
+    "c2": {
+      "alt": "application optimization",
+      "subtitle": "Skills acquired during my internship at CNR",
+      "text": "During my 2-month internship, I completed a full project: developing a visualization tool for hydraulic simulation results. I managed all the stages independently, from gathering requirements to writing a user manual.",
+      "modal": {
+        "orga": {
+          "title": "Organization",
+          "text": "Organized my work to understand the hydraulic field, gather requirements, write documents, choose technologies, and validate the development."
+        },
+        "hydro": {
+          "title": "Understanding hydraulics",
+          "text": "Learned how dams and hydroelectric plants work, the rules for safe and efficient operation, and the impact of floods."
+        },
+        "collab": {
+          "title": "Team collaboration",
+          "text": "Regularly consulted with users and presented the final tool to the team."
+        },
+        "projects": {
+          "title": "Projects",
+          "p1": "GraphMap Analysis",
+          "p2": "Subtitle Translator",
+          "p3": "Cash Register Application"
+        }
+      }
+    },
+    "c3": {
+      "alt": "optimize applications",
+      "subtitle": "Optimizing Applications",
+      "text": "Propose optimized applications according to specific criteria: execution time, accuracy, resource usage. Use algorithms and data structures to improve performance in constrained contexts.",
+      "modal": {
+        "title": "Optimizing Applications",
+        "text1": "To optimize an application, it is necessary to analyze the algorithms and data structures used.",
+        "text2": "Build and select an optimized algorithm to effectively solve a problem.",
+        "text3": "Study performance and apply improvements considering data size and available resources.",
+        "projects": {
+          "title": "Projects",
+          "p1": "GraphMap Analysis",
+          "p2": "Subtitle Translator",
+          "p3": "Cash Register Application"
+        }
+      }
+    },
+    "c4": {
+      "alt": "database",
+      "subtitle": "Design, manage and operate databases",
+      "text": "Design, manage, administer, and operate company data, providing information for effective decision-making. Ensure compliance with privacy and data protection regulations. Consider the ecological impact of data storage.",
+      "modal": {
+        "intro": {
+          "title": "Design, manage and operate databases",
+          "text": "Managing information data involves organizing, storing, and protecting data."
+        },
+        "create": {
+          "title": "Create, optimize and integrate",
+          "text": "Create a database based on client needs. Optimize and integrate it into an application. Leverage data with Power BI."
+        },
+        "projects": {
+          "title": "Projects",
+          "p1": "E-commerce Website",
+          "p2": "ShopList"
+        }
+      }
+    },
+    "c5": {
+      "alt": "system administration",
+      "subtitle": "Administer IT systems",
+      "text": "Install, configure, maintain, and optimize infrastructures, services, and networks of an organization. Ensure security by applying current standards and best practices.",
+      "modal": {
+        "admin": {
+          "title": "Administer complex IT systems",
+          "text": "This involves managing and maintaining the proper functioning of a connected IT system."
+        },
+        "install": {
+          "title": "Install, Configure, Deploy",
+          "text": "Set up and configure a web server (Apache, XAMPP, WAMP). Deploy services and development environments."
+        },
+        "projects": {
+          "title": "Projects",
+          "p1": "E-commerce Website",
+          "p2": "ShopList"
+        }
+      }
+    },
+    "c6": {
+      "alt": "team collaboration",
+      "subtitle": "Collaborate within a team",
+      "text": "Acquire, develop, and apply the skills needed to work effectively in an IT team. Develop effective and collaborative communication while supporting the implementation of IT changes.",
+      "modal": {
+        "team": {
+          "title": "Collaborate within an IT team",
+          "text": "Know how to work in a team. Identify your skills for effective collaboration. Understand roles and responsibilities within an IT team."
+        },
+        "manager": {
+          "title": "Manage",
+          "text": "Lead a team during a project. Meet project constraints while distributing tasks according to each member’s abilities."
+        },
+        "projects": {
+          "title": "Projects",
+          "p1": "E-commerce website Crouskie",
+          "p2": "Graph-Map analysis software"
+        }
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact Me",
+    "mail": "Email",
+    "linkedin": "LinkedIn",
+    "github": "GitHub"
+  }
+}

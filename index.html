@@ -1,14 +1,13 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="{{lang}}">
 
 <head>
-	<title>Portfolio Thomas Warrier</title>
+	<title>{{title}}</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="shortcut icon" href="assets/icons/logoPortfolio.png">
 	<link rel="icon" href="assets/icons/logoPortfolio.png">
 	<link rel="apple-touch-icon" href="assets/icons/logoPortfolio.png">
-	
 
 	<link rel="stylesheet" href="css/font.css">
 	<link rel="stylesheet" href="css/main.css">
@@ -24,183 +23,152 @@
 	<script src="scroll.js" defer></script>
 	<script src="script.js" defer></script>
 	<script src="navbarJQuery.js" defer></script>
-
+	<script src="translate.js" defer></script>
 </head>
 
 <body>
 	<section id="home-section">
 		<nav class="navbar">
 			<div class="container flex-row space-between">
-				<a class="navbar-name" href="index.html">Thomas Warrier</a>
-
-
+				<a class="navbar-name" href="index.html">{{name}}</a>
 				<ul class="navbar-nav flex-row">
-					<li class="nav-item"><a href="#home-section" class="nav-link"><span>Accueil</span></a></li>
-					<li class="nav-item"><a href="#about-section" class="nav-link"><span>Présentation</span></a></li>
-					<li class="nav-item"><a href="#project-section" class="nav-link"><span>Projets</span></a></li>
-					<li class="nav-item"><a href="#skills-section" class="nav-link"><span>Compétences</span></a></li>
-					<li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
-
+					<li class="nav-item"><a href="#home-section" class="nav-link"><span>{{nav.home}}</span></a></li>
+					<li class="nav-item"><a href="#about-section" class="nav-link"><span>{{nav.about}}</span></a></li>
+					<li class="nav-item"><a href="#project-section" class="nav-link"><span>{{nav.projects}}</span></a>
+					</li>
+					<li class="nav-item"><a href="#skills-section" class="nav-link"><span>{{nav.skills}}</span></a></li>
+					<li class="nav-item"><a href="#contact-section" class="nav-link"><span>{{nav.contact}}</span></a>
+					</li>
 				</ul>
 			</div>
 		</nav>
+
 		<div id="background-container">
 			<section id="up"></section>
 			<section id="down"></section>
 			<section id="left"></section>
 			<section id="right"></section>
 		</div>
+
 		<div class="hero">
 			<div class="txt flex-col centered" id="homepage-txt">
-				<span>Bonjour !</span>
-				<h1>
-					Je suis
-					<span>Thomas Warrier</span>
-				</h1>
-				<h2>
-					Étudiant en informatique
-				</h2>
+				<span>{{hero.greeting}}</span>
+				<h1>{{hero.intro}} <span>{{name}}</span></h1>
+				<h2>{{hero.subtitle}}</h2>
 			</div>
 		</div>
-
 	</section>
-
-
 
 	<section id="about-section">
 		<nav class="navbar navbar-scroll">
 			<div class="container flex-row space-between">
-				<a class="navbar-name" href="index.html">Thomas Warrier</a>
-
-
+				<a class="navbar-name" href="index.html">{{name}}</a>
 				<ul class="navbar-nav flex-row">
-					<li class="nav-item"><a href="#home-section" class="nav-link"><span>Accueil</span></a></li>
-					<li class="nav-item"><a href="#about-section" class="nav-link"><span>Présentation</span></a></li>
-					<li class="nav-item"><a href="#project-section" class="nav-link"><span>Projets</span></a></li>
-					<li class="nav-item"><a href="#skills-section" class="nav-link"><span>Compétence</span></a></li>
-					<li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
-
+					<li class="nav-item"><a href="#home-section" class="nav-link"><span>{{nav.home}}</span></a></li>
+					<li class="nav-item"><a href="#about-section" class="nav-link"><span>{{nav.about}}</span></a></li>
+					<li class="nav-item"><a href="#project-section" class="nav-link"><span>{{nav.projects}}</span></a>
+					</li>
+					<li class="nav-item"><a href="#skills-section" class="nav-link"><span>{{nav.skills}}</span></a></li>
+					<li class="nav-item"><a href="#contact-section" class="nav-link"><span>{{nav.contact}}</span></a>
+					</li>
 				</ul>
 			</div>
 		</nav>
-		<h1>A Propos De Moi</h1>
+
+		<h1>{{about.title}}</h1>
 		<div class="rubrique flex-col">
-			<h2 class="subtitle">D'ou vient mon envie de faire de l'informatique ?</h2>
-			<p class="paragraphe">
-				Attiré depuis tout petit par l'informatique, ce qui a concrétisé mon envie de me lancer était de
-				<span>réaliser mes propres projets.</span> J'ai donc commencé mon aventure au lycée en
-				terminale
-				avec un site que j'ai réalisé pour une pizzeria. Depuis mon envie d'<span>évoluer et
-					d'apprendre</span> ne m'a jamais quittée et continue de me
-				mener vers d'autres technologies. <span> Mettre en pratique</span> ce que j'apprends à travers mes
-				projets
-				personnels
-				est la façon la plus rapide que j'ai trouvé pour <span>progresser tout en m'amusant.</span>
-			</p>
+			<h2 class="subtitle">{{about.section1.title}}</h2>
+			<p class="paragraphe">{{about.section1.text}}</p>
 			<a href="assets/ThomasWarrierCV.pdf" download="Thomas Warrier CV">
-				<button class="flex-row small-boxshadow">Télécharger CV<img src="assets/icons/download.svg"></button>
+				<button class="flex-row small-boxshadow">{{about.downloadCV}}<img
+						src="assets/icons/download.svg"></button>
 			</a>
 		</div>
+
 		<div>
-			<h2 class="subtitle">Mon Parcours</h2>
+			<h2 class="subtitle">{{about.timeline.title}}</h2>
 			<div class="flex-row timeline-wrapper padding-container">
 				<div class="timeline-item">
-					<h3 class="future">Et si on écrivait la suite ensemble ?</h3>
+					<h3 class="future">{{about.timeline.future}}</h3>
 				</div>
 				<div class="timeline-item">
 					<div class="date">
 						<p>2024</p>
 						<p>2027</p>
 					</div>
-					<h3>École d'ingénieur</h3>
-					<p class="description">J'effectue actuellement mes études d'ingénieur en alternance dans l'école CPE Lyon
-					</p>
+					<h3>{{about.timeline.engineerSchool.title}}</h3>
+					<p class="description">{{about.timeline.engineerSchool.text}}</p>
 				</div>
 				<div class="timeline-item">
 					<div class="date">
 						<p>2023</p>
 						<p>2027</p>
 					</div>
-					<h3>Alternance CGI</h3>
-					<p class="description">J'ai réalisé ma troisième année de BUT chez CGI et je poursuis avec eux pour mon école d'ingénieur</p>
+					<h3>{{about.timeline.internship.title}}</h3>
+					<p class="description">{{about.timeline.internship.text}}</p>
 				</div>
 				<div class="timeline-item">
 					<div class="date">
 						<p>2021</p>
 						<p>2024</p>
 					</div>
-					<h3>BUT informatique</h3>
-					<p class="description">J'ai réalisé mon BUT a l'IUT de Lyon 1 avec la spécialité
-						développement
-						d'application</p>
+					<h3>{{about.timeline.bachelor.title}}</h3>
+					<p class="description">{{about.timeline.bachelor.text}}</p>
 				</div>
-
-				
-
-				
 			</div>
 		</div>
+
 		<div>
-			<h2 class="subtitle">Qu'est ce que j'aime dans la vie ?</h2>
-			<p>l'informatique n'est pas ma seule passion, j'aime beaucoup le badminton que je pratique depuis 2 ans et
-				le tennis que j'ai pratiqué pendant 9 ans
-			</p>
+			<h2 class="subtitle">{{about.hobbies.title}}</h2>
+			<p>{{about.hobbies.text}}</p>
 			<div class="passion-wrapper flex-row padding-container">
 				<div class="passion-item">
 					<img src="assets/passion-image/headset.png" alt="">
-					<h3>Écouter De La Musique</h3>
-					<p>La musique m'inspire quotidiennement et est pour moi un trés bon outil de motivation</p>
+					<h3>{{about.hobbies.music.title}}</h3>
+					<p>{{about.hobbies.music.text}}</p>
 				</div>
 				<div class="passion-item">
 					<img src="assets/passion-image/badminton.png" alt="">
-					<h3>Les Sports De Raquette</h3>
-					<p>Le badminton, le tennis et le squash sont des sports que j'apprécie beaucoup</p>
+					<h3>{{about.hobbies.racketSports.title}}</h3>
+					<p>{{about.hobbies.racketSports.text}}</p>
 				</div>
 				<div class="passion-item">
 					<img src="assets/passion-image/search.png" alt="">
-					<h3>Découvrir</h3>
-					<p> Découvrir et apprendre de nouvelles choses me donnent un sentiment de satisfaction </p>
+					<h3>{{about.hobbies.discover.title}}</h3>
+					<p>{{about.hobbies.discover.text}}</p>
 				</div>
 				<div class="passion-item">
 					<img src="assets/passion-image/voyage.png" alt="">
-					<h3>Voyager</h3>
-					<p>Voyager est l'une de mes motivations principales. J'aime découvrir d'autres cultures</p>
+					<h3>{{about.hobbies.travel.title}}</h3>
+					<p>{{about.hobbies.travel.text}}</p>
 				</div>
-
 			</div>
 		</div>
 	</section>
 
-
-
 	<section id="project-section">
-		<h1>Mes Projets</h1>
+		<h1>{{projects.title}}</h1>
 		<div id="project-wrapper" class="flex-col">
-			<div id="item-wrapper" class="flex-row  padding-container">
+
+			<!-- Projet 1 -->
+			<div id="item-wrapper" class="flex-row padding-container">
 				<div class="item-wrap">
 					<div class="image-wrapper">
-						<img src="assets/project_presentation/subtitle_translator_presentation.jpg" alt="Netflix TV">
+						<img src="assets/project_presentation/subtitle_translator_presentation.jpg"
+							alt="{{projects.netflix.alt}}">
 					</div>
 					<div class="project-item-text-container">
-						<h3 class="project-title">Outil De Traduction Netflix</h3>
-						<span class="project-type">
-							Extension Web
-						</span>
+						<h3 class="project-title">{{projects.netflix.title}}</h3>
+						<span class="project-type">{{projects.netflix.type}}</span>
 					</div>
 					<div class="modal">
-
-						<!-- Modal content -->
 						<div class="modal-content">
 							<span class="close">&times;</span>
 
 							<div class="carousel flex-col">
 								<section class="slider-wrapper">
-									<button class="slide-arrow" id="slide-arrow-prev">
-										&#8249;
-									</button>
-									<button class="slide-arrow" id="slide-arrow-next">
-										&#8250;
-									</button>
+									<button class="slide-arrow" id="slide-arrow-prev">&#8249;</button>
+									<button class="slide-arrow" id="slide-arrow-next">&#8250;</button>
 									<ul class="slides-container" id="slides-container">
 										<li class="slide"><img
 												src="assets/carousel-images/NetflixSubtitles/apercu1.jpeg" alt=""></li>
@@ -214,123 +182,86 @@
 
 							<div class="grid-project">
 								<div class="flex-col">
-									<h3>Contexte</h3>
-									<p>Imaginez que vous regardez une série en anglais sous-titré anglais pour vous
-										perfectionner. Et là le drame... Il y a un mot que vous ne comprenez pas. Vous
-										allez devoir mettre pause sur votre série. Ouvrir un nouvel onglet, allez sur
-										Google traduction tapez le mot que vous n'avez pas compris puis revenir dans
-										l'onglet de la série et remettre play. C'est tout à fait faisable, mais il y a
-										une possibilité de faire tout ça efficacement.</p>
-									<h3>Solution</h3>
-									<p>Faire apparaître une pop-up de traduction directement dans le lecteur Netflix et
-										avoir la possibilité d'ouvrir cette pop-up en activant un simple raccourci.</p>
+									<h3>{{projects.netflix.context.title}}</h3>
+									<p>{{projects.netflix.context.text}}</p>
+									<h3>{{projects.netflix.solution.title}}</h3>
+									<p>{{projects.netflix.solution.text}}</p>
 								</div>
-
 								<div class="flex-col">
-									<h3>Type de projet</h3>
-									<p>Projet personnel</p>
-									<h3>Technologies utlisé</h3>
-									<p>Javascript / HTML / CSS</p>
-									<h3>Lien Utile</h3>
-									<a href="https://github.com/thomas-warrier/Subtitle-translator">Lien Github</a>
+									<h3>{{projects.netflix.projectType.title}}</h3>
+									<p>{{projects.netflix.projectType.text}}</p>
+									<h3>{{projects.netflix.technologies.title}}</h3>
+									<p>{{projects.netflix.technologies.text}}</p>
+									<h3>{{projects.netflix.links.title}}</h3>
 									<a
-										href="https://addons.mozilla.org/en-US/firefox/addon/subtitle-translator-netflix/">Extension
-										Firefox</a>
+										href="https://github.com/thomas-warrier/Subtitle-translator">{{projects.netflix.links.github}}</a>
 									<a
-										href="https://chrome.google.com/webstore/detail/subtitle-translator-netfl/nnaajehdbagpimcbkjjpgbcehipbempb">Extension
-										Chrome</a>
+										href="https://addons.mozilla.org/en-US/firefox/addon/subtitle-translator-netflix/">{{projects.netflix.links.firefox}}</a>
+									<a
+										href="https://chrome.google.com/webstore/detail/subtitle-translator-netfl/nnaajehdbagpimcbkjjpgbcehipbempb">{{projects.netflix.links.chrome}}</a>
 								</div>
-
 							</div>
 						</div>
-
 					</div>
 				</div>
 
+				<!-- Projet 2 -->
 				<div class="item-wrap">
 					<div class="image-wrapper">
 						<img src="assets/project_presentation/ticket_num_presentation.jpg"
-							alt="photo d'un téléphone avec un ticket numérique">
+							alt="{{projects.ticket.alt}}">
 					</div>
 					<div class="project-item-text-container">
-						<h3 class="project-title">Gestionnaire De Ticket De Caisse</h3>
-						<span class="project-type">
-							Application Android
-						</span>
+						<h3 class="project-title">{{projects.ticket.title}}</h3>
+						<span class="project-type">{{projects.ticket.type}}</span>
 					</div>
 					<div class="modal">
-
-						<!-- Modal content -->
 						<div class="modal-content">
 							<span class="close">&times;</span>
-
 							<img src="assets/carousel-images/Etiket/apercu.png">
-
 							<div class="grid-project">
 								<div class="flex-col">
-									<h3>Fonctionnement</h3>
-									<p>Il s'agit de faciliter la gestion de vos tickets de caisse numérique en vous permettant de les
-										récupérer directement depuis votre boîte mail et de les afficher de manière
-										organisée sur votre appareil Android. Grâce à ce projet, vous n'aurez plus
-										besoin de vous encombrer de papiers et pourrez accéder à vos tickets de manière
-										pratique et rapide.
-									</p>
-									<h3>Firebase</h3>
-									<p>
-										Le fonctionnement de cette application repose sur un système de compte, vous
-										permettant de créer un profil et de synchroniser vos données avec une base de
-										données en ligne, gérée par Firebase. Cette synchronisation vous permet de
-										retrouver vos tickets sur tous vos appareils, quels que soient leur emplacement
-										ou leur type. En utilisant cette application, vous bénéficierez d'une solution
-										simple et efficace pour gérer vos tickets de caisse numérique, sans avoir à vous
-										en soucier.
-									</p>
+									<h3>{{projects.ticket.function.title}}</h3>
+									<p>{{projects.ticket.function.text}}</p>
+									<h3>{{projects.ticket.firebase.title}}</h3>
+									<p>{{projects.ticket.firebase.text}}</p>
 								</div>
-
 								<div class="flex-col">
-									<h3>Type de projet</h3>
-									<p>Projet personnel</p>
-									<h3>Technologies utlisé</h3>
-									<p>Java / Kotlin / XML / Firebase</p>
-									<h3>Lien Utile</h3>
-									<a href="https://github.com/thomas-warrier/Etiket">Lien Github</a>
+									<h3>{{projects.ticket.projectType.title}}</h3>
+									<p>{{projects.ticket.projectType.text}}</p>
+									<h3>{{projects.ticket.technologies.title}}</h3>
+									<p>{{projects.ticket.technologies.text}}</p>
+									<h3>{{projects.ticket.links.title}}</h3>
 									<a
-										href="https://www.figma.com/file/fE2380P0Q0eyc3jnXAWxWJ/Etiket?node-id=0%3A1&t=CrwIS7VqOHagGy0q-1">Maquette
-										Figma</a>
-									<a href="https://totow.notion.site/Etiket-3da46aaa1159470cabd832b7de6b49d1">Cahier
-										des charges</a>
+										href="https://github.com/thomas-warrier/Etiket">{{projects.ticket.links.github}}</a>
+									<a
+										href="https://www.figma.com/file/fE2380P0Q0eyc3jnXAWxWJ/Etiket?node-id=0%3A1&t=CrwIS7VqOHagGy0q-1">{{projects.ticket.links.figma}}</a>
+									<a
+										href="https://totow.notion.site/Etiket-3da46aaa1159470cabd832b7de6b49d1">{{projects.ticket.links.spec}}</a>
 								</div>
-
 							</div>
 						</div>
-
 					</div>
 				</div>
 
+				<!-- Projet 3 -->
 				<div class="item-wrap">
 					<div class="image-wrapper">
-						<img src="assets/project_presentation/pizzeria_presentation.jpg" alt="photo d'une pizza">
+						<img src="assets/project_presentation/pizzeria_presentation.jpg"
+							alt="{{projects.pizzeria.alt}}">
 					</div>
 					<div class="project-item-text-container">
-						<h3 class="project-title">Site Pour Une Pizzeria</h3>
-						<span class="project-type">
-							Site Web
-						</span>
+						<h3 class="project-title">{{projects.pizzeria.title}}</h3>
+						<span class="project-type">{{projects.pizzeria.type}}</span>
 					</div>
 					<div class="modal">
-
-						<!-- Modal content -->
 						<div class="modal-content">
 							<span class="close">&times;</span>
 
 							<div class="carousel flex-col">
 								<section class="slider-wrapper">
-									<button class="slide-arrow" id="slide-arrow-prev">
-										&#8249;
-									</button>
-									<button class="slide-arrow" id="slide-arrow-next">
-										&#8250;
-									</button>
+									<button class="slide-arrow" id="slide-arrow-prev">&#8249;</button>
+									<button class="slide-arrow" id="slide-arrow-next">&#8250;</button>
 									<ul class="slides-container" id="slides-container">
 										<li class="slide"><img src="assets/carousel-images/pizzajo/apercu1.png" alt="">
 										</li>
@@ -348,216 +279,147 @@
 
 							<div class="grid-project">
 								<div class="flex-col">
-									<h3>Mes débuts dans l'informatique</h3>
-									<p>Ce projet a été ma toute première réalisation, je l'ai réalisé lorsque j'étais en
-										terminale avec un ami. Je n'avais a l'époque aucune connaissance en HTML et CSS.
-										J'ai donc du chercher par moi même comment tout ceci fonctionnait</p>
-									<h3>Fonctionnement</h3>
-									<p>Le site web a pour objectif de présenter aux internautes
-										l'histoire de l'établissement ainsi que les plats qu'il propose.
-
-										Pour réaliser ce projet, il a été nécessaire de créer un site web professionnel
-										et
-										attractif, qui soit adapté aux différents supports de navigation (ordinateur,
-										tablette, smartphone). Le site doit être ergonomique et facile à utiliser, afin
-										que les internautes puissent trouver rapidement les informations qu'ils
-										recherchent.Pour que le projet prenne moins de temps nous nous sommes basés sur
-										un template HTML CSS libre de droit
-									</p>
+									<h3>{{projects.pizzeria.start.title}}</h3>
+									<p>{{projects.pizzeria.start.text}}</p>
+									<h3>{{projects.pizzeria.function.title}}</h3>
+									<p>{{projects.pizzeria.function.text}}</p>
 								</div>
-
 								<div class="flex-col">
-									<h3>Type de projet</h3>
-									<p>Projet personnel</p>
-									<h3>Technologies utlisé</h3>
-									<p>HTML / CSS</p>
-									<h3>Lien Utile</h3>
-									<a href="https://www.lapizzajo.fr">lapizzajo.fr</a>
-									<a href="https://github.com/Niskko/Pizzajo">Lien Github</a>
+									<h3>{{projects.pizzeria.projectType.title}}</h3>
+									<p>{{projects.pizzeria.projectType.text}}</p>
+									<h3>{{projects.pizzeria.technologies.title}}</h3>
+									<p>{{projects.pizzeria.technologies.text}}</p>
+									<h3>{{projects.pizzeria.links.title}}</h3>
+									<a href="https://www.lapizzajo.fr">{{projects.pizzeria.links.website}}</a>
+									<a href="https://github.com/Niskko/Pizzajo">{{projects.pizzeria.links.github}}</a>
 								</div>
-
 							</div>
 						</div>
-
 					</div>
 				</div>
+
 
 				<div class="item-wrap">
 					<div class="image-wrapper">
 						<img src="assets/project_presentation/portfolio_presentation.jpg"
-							alt="photo d'un téléphone avec un ticket numérique'">
+							alt="{{projects.portfolio.alt}}">
 					</div>
 					<div class="project-item-text-container">
-						<h3 class="project-title">Mon Portfolio</h3>
-						<span class="project-type">
-							Site Web
-						</span>
+						<h3 class="project-title">{{projects.portfolio.title}}</h3>
+						<span class="project-type">{{projects.portfolio.type}}</span>
 					</div>
 					<div class="modal">
-
-						<!-- Modal content -->
 						<div class="modal-content">
 							<span class="close">&times;</span>
 
 							<div class="carousel flex-col">
 								<section class="slider-wrapper">
-									<button class="slide-arrow" id="slide-arrow-prev">
-										&#8249;
-									</button>
-									<button class="slide-arrow" id="slide-arrow-next">
-										&#8250;
-									</button>
+									<button class="slide-arrow" id="slide-arrow-prev">&#8249;</button>
+									<button class="slide-arrow" id="slide-arrow-next">&#8250;</button>
 									<ul class="slides-container" id="slides-container">
 										<li class="slide"><img src="assets/carousel-images/portfolio/apercu1.png"
-												alt="">
-										</li>
+												alt=""></li>
 										<li class="slide"><img src="assets/carousel-images/portfolio/apercu2.png"
-												alt="">
-										</li>
+												alt=""></li>
 										<li class="slide"><img src="assets/carousel-images/portfolio/apercu3.png"
 												alt=""></li>
 										<li class="slide"><img src="assets/carousel-images/portfolio/apercu4.png"
 												alt=""></li>
-
 									</ul>
 								</section>
 							</div>
+
 							<div class="grid-project">
 								<div class="flex-col">
-									<h3>L'objectif de ce projet</h3>
-									<p> A travers mon portfolio j'ai essayé de présenter de manière professionnelle et
-										attractive mes projets
-										et mes compétences à un public cible, les recruteurs.
-										Il inclut une présentation de moi-même, afin de
-										donner un aperçu de mon parcours et de ma personnalité en utilisant des
-										mots-clés et en mettant en
-										avant mes points forts.
-										Il met en avant mes
-										projets en utilisant des visuels et des
-										descriptifs. Le site présente également mes compétences de manière
-										claire et structurée sans trop de détails afin que ça ne soit pas ennuyeux ou
-										pire illisible pour le recruteur.
-									</p>
+									<h3>{{projects.portfolio.goal.title}}</h3>
+									<p>{{projects.portfolio.goal.text}}</p>
 								</div>
 
 								<div class="flex-col">
-									<h3>Type de projet</h3>
-									<p>Projet personnel</p>
-									<h3>Technologies utlisé</h3>
-									<p>HTML / CSS / Javascript / JQuery</p>
-									<h3>Lien Utile</h3>
-									<a href="https://thomas-warrier.github.io/ThomasWarrierPortfolio/">Aperçu De Mon
-										Portfolio</a>
-									<a href="https://github.com/thomas-warrier/ThomasWarrierPortfolio">Lien Github</a>
+									<h3>{{projects.portfolio.projectType.title}}</h3>
+									<p>{{projects.portfolio.projectType.text}}</p>
+									<h3>{{projects.portfolio.technologies.title}}</h3>
+									<p>{{projects.portfolio.technologies.text}}</p>
+									<h3>{{projects.portfolio.links.title}}</h3>
+									<a
+										href="https://thomas-warrier.github.io/ThomasWarrierPortfolio/">{{projects.portfolio.links.preview}}</a>
+									<a
+										href="https://github.com/thomas-warrier/ThomasWarrierPortfolio">{{projects.portfolio.links.github}}</a>
 								</div>
-
 							</div>
 						</div>
-
 					</div>
-
 				</div>
 
 				<div class="item-wrap">
 					<div class="image-wrapper">
 						<img src="assets/project_presentation/crouskie_presentation.png"
-							alt="photo d'un téléphone avec un ticket numérique'">
+							alt="{{projects.crouskie.alt}}">
 					</div>
 					<div class="project-item-text-container">
-						<h3 class="project-title">Crouskie Web</h3>
-						<span class="project-type">
-							Site Web
-						</span>
+						<h3 class="project-title">{{projects.crouskie.title}}</h3>
+						<span class="project-type">{{projects.crouskie.type}}</span>
 					</div>
 					<div class="modal">
-
-						<!-- Modal content -->
 						<div class="modal-content">
 							<span class="close">&times;</span>
 
 							<div class="carousel flex-col">
 								<section class="slider-wrapper">
-									<button class="slide-arrow" id="slide-arrow-prev">
-										&#8249;
-									</button>
-									<button class="slide-arrow" id="slide-arrow-next">
-										&#8250;
-									</button>
+									<button class="slide-arrow" id="slide-arrow-prev">&#8249;</button>
+									<button class="slide-arrow" id="slide-arrow-next">&#8250;</button>
 									<ul class="slides-container" id="slides-container">
-
 										<li class="slide"><img src="assets/carousel-images/Crouskie/apercu1.png" alt="">
 										</li>
 										<li class="slide"><img src="assets/carousel-images/Crouskie/apercu2.png" alt="">
 										</li>
-
-
 									</ul>
 								</section>
 							</div>
 
 							<div class="grid-project">
 								<div class="flex-col">
-
-									<h3>Présentation</h3>
-									<p>Le site avait pour but de présenter une marque de vêtements fictive que nous avons
-										imaginée avec mon groupe de travail. Elle se nomme crouskie et tourne autour du
-										thème des cookies.
-										Nous avons essayé de mettre en avant les produits de la marque.
-										Les utilisateurs peuvent donc parcourir le
-										catalogue de produits et des collections. Ils peuvent aussi ajouter des articles
-										à leur panier, en sélectionnant
-										leur couleur et leur taille. Le site est conçu de manière à rendre l'expérience
-										utilisateur agréable et intuitive.
-									</p>
-									<h3>Ma partie</h3>
-									<p>Sur ce projet, j'ai principalement réalisé le PHP en faisant les Data Access
-										Object qui permet de faire le lien entre la base de données et le site web. J'ai
-										aussi fait le HTML et CSS de la page d'accueil et des collections.</p>
+									<h3>{{projects.crouskie.presentation.title}}</h3>
+									<p>{{projects.crouskie.presentation.text}}</p>
+									<h3>{{projects.crouskie.mypart.title}}</h3>
+									<p>{{projects.crouskie.mypart.text}}</p>
 								</div>
 
 								<div class="flex-col">
-									<h3>Type de projet</h3>
-									<p>Projet universitaire</p>
-									<h3>Technologies utlisé</h3>
-									<p>HTML / CSS / Javascript / PHP</p>
-									<h3>Pattern implémenté</h3>
-									<p> Model View Controller (MVC) </p>
-									<h3>Lien Utile</h3>
-									<a href="http://crouskie.menardbediant.fr/">Aperçu Du site</a>
-									<a href="">Lien Github</a> <!--TODO-->
-									<a href="assets/Crouskie_CDC.pdf">Cahier Des Charges</a>
+									<h3>{{projects.crouskie.projectType.title}}</h3>
+									<p>{{projects.crouskie.projectType.text}}</p>
+									<h3>{{projects.crouskie.technologies.title}}</h3>
+									<p>{{projects.crouskie.technologies.text}}</p>
+									<h3>{{projects.crouskie.pattern.title}}</h3>
+									<p>{{projects.crouskie.pattern.text}}</p>
+									<h3>{{projects.crouskie.links.title}}</h3>
+									<a href="http://crouskie.menardbediant.fr/">{{projects.crouskie.links.preview}}</a>
+									<a href="">{{projects.crouskie.links.github}}</a>
+									<a href="assets/Crouskie_CDC.pdf">{{projects.crouskie.links.spec}}</a>
 								</div>
-
 							</div>
 						</div>
-
 					</div>
 				</div>
+
 
 				<div class="item-wrap">
 					<div class="image-wrapper">
 						<img src="assets/project_presentation/graphmap_presentation.jpg"
-							alt="photo d'un téléphone avec un ticket numérique'">
+							alt="{{projects.graphmap.alt}}">
 					</div>
 					<div class="project-item-text-container">
-						<h3 class="project-title">Application Graph-Map Java</h3>
-						<span class="project-type">
-							Application Java
-						</span>
+						<h3 class="project-title">{{projects.graphmap.title}}</h3>
+						<span class="project-type">{{projects.graphmap.type}}</span>
 					</div>
 					<div class="modal">
-
-						<!-- Modal content -->
 						<div class="modal-content">
 							<span class="close">&times;</span>
+
 							<div class="carousel flex-col">
 								<section class="slider-wrapper grama">
-									<button class="slide-arrow" id="slide-arrow-prev">
-										&#8249;
-									</button>
-									<button class="slide-arrow" id="slide-arrow-next">
-										&#8250;
-									</button>
+									<button class="slide-arrow" id="slide-arrow-prev">&#8249;</button>
+									<button class="slide-arrow" id="slide-arrow-next">&#8250;</button>
 									<ul class="slides-container" id="slides-container">
 										<li class="slide"><img src="assets/carousel-images/grama/apercu1.png" alt="">
 										</li>
@@ -568,351 +430,214 @@
 									</ul>
 								</section>
 							</div>
+
 							<div class="grid-project">
 								<div class="flex-col">
-
-									<h3>Présentation</h3>
-									<p>Ce projet a pour vocation d'explorer et d'analyser un graphe-MAP via une
-										interface homme-machine, entre autre une carte contenant des nœuds (localité ou
-										site) et des liens (routes) depuis une interface graphique manipulable par un
-										utilisateur.
-
-										L'initiative de la mise en place du projet est due à une étude sur les graphes
-										mathématiques au sein de l'IUT.
-									</p>
+									<h3>{{projects.graphmap.presentation.title}}</h3>
+									<p>{{projects.graphmap.presentation.text}}</p>
 								</div>
 
 								<div class="flex-col">
-									<h3>Type de projet</h3>
-									<p>Projet universitaire en binôme</p>
-									<h3>Technologies utlisé</h3>
-									<p>Java / Java Swing</p>
-									<h3>Lien Utile</h3>
-									<a href="https://github.com/thomas-warrier/Graph-Map-Application">Lien Github</a>
+									<h3>{{projects.graphmap.projectType.title}}</h3>
+									<p>{{projects.graphmap.projectType.text}}</p>
+									<h3>{{projects.graphmap.technologies.title}}</h3>
+									<p>{{projects.graphmap.technologies.text}}</p>
+									<h3>{{projects.graphmap.links.title}}</h3>
+									<a
+										href="https://github.com/thomas-warrier/Graph-Map-Application">{{projects.graphmap.links.github}}</a>
 								</div>
-
 							</div>
 						</div>
-
 					</div>
 				</div>
-
-			</div>
-		</div>
 	</section>
 	<div class="background">
 		<section id="skills-section">
-			<h1>Mes Compétences</h1>
+			<h1>{{skills.title}}</h1>
+
+			<!-- Compétence 1 -->
 			<div class="skill-item flex-row clipath-first space-around">
-				<img src="assets/competences-icon/rea_app.png" alt="réalisation d'application">
+				<img src="assets/competences-icon/rea_app.png" alt="{{skills.c1.alt}}">
 				<div class="text-container-skill left-text">
-					<h3>Compétences acquises durant mon alternance chez CGI</h3>
-					<p>Au cours de mon alternance, j’ai acquis des connaissances en Angular et Spring. J’ai appris à concevoir, 
-						développer et tester une applications web sécurisées et performantes. En utilisant au maximum les 
-						bonnes pratiques de programmation.
-						J’ai également appris à utiliser des outils comme Maven et Git. Pour gérer le cycle de vie d’une 
-						application.
-						J’ai renforcé mes compétences en matière de tests unitaires et d’intégration.</p>
+					<h3>{{skills.c1.subtitle}}</h3>
+					<p>{{skills.c1.text}}</p>
 				</div>
 				<div class="modal">
-
-					<!-- Modal content -->
 					<div class="modal-content-skill">
 						<span class="close">&times;</span>
 						<div>
 							<div class="skill-pop-text">
-								<h3>Réaliser un développement d'application</h3>
-
-
-								<p><strong>Développer</strong> (coder, tester, intégrer) une solution
-									informatique pour un client. En respectant les besoins du client , en appliquant les
-									principes algorithmiques. En veillant à la qualité du code et à sa documentation, En
-									choisissant les ressources techniques appropriées. Implémenter des conceptions simples. </p>
+								<h3>{{skills.c1.modal.dev.title}}</h3>
+								<p>{{skills.c1.modal.dev.text}}</p>
 							</div>
 							<div class="skill-pop-text">
-								<h3>Partir des exigences et aller jusqu'à une application complète</h3>
-
-								<p>Élaborer et implémenter les spécifications fonctionnelles et non fonctionnelles à
-									partir des exigences. Appliquer des principes d'accessibilité et d'ergonomie. Adopter de bonnes pratiques de conception et de programmation</p>
-
-								<p>Vérifier et valider la qualité de l'application par les tests</p>
+								<h3>{{skills.c1.modal.fullapp.title}}</h3>
+								<p>{{skills.c1.modal.fullapp.text1}}</p>
+								<p>{{skills.c1.modal.fullapp.text2}}</p>
 							</div>
 							<div class="skill-pop-text">
-								<h3>Gestion de Projet</h3>
-
-								<p>Mes compétences en terme de gestion de projet ont beaucoup évolué notamment dans les domaines 
-									suivants :<br/><br/>
-									• Communication <br/>
-									• Organisation <br/>
-									• Résolution des problèmes <br/>
-									• Esprit d'équipe <br/>
-									• Gestion du temps<br/><br/>
-									J’ai découvert le fonctionnement d’un projet et j’ai appris à faire partie d’une équipe agile.
-								</p>
+								<h3>{{skills.c1.modal.management.title}}</h3>
+								<p>{{skills.c1.modal.management.text}}</p>
 							</div>
 							<div class="skill-pop-text">
-								<h3>Projets</h3>
-								<p>Subtitle Translator</p>
-								<p>Graph Map</p>
-								<p>Etiket : Application de gestion de ticket de caisse</p>
-								<p>Site Web de E-commerce : Crouskie</p>
+								<h3>{{skills.c1.modal.projects.title}}</h3>
+								<p>{{skills.c1.modal.projects.p1}}</p>
+								<p>{{skills.c1.modal.projects.p2}}</p>
+								<p>{{skills.c1.modal.projects.p3}}</p>
+								<p>{{skills.c1.modal.projects.p4}}</p>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 
-
+			<!-- Compétence 2 -->
 			<div class="skill-item flex-row-rev space-around">
-				<img src="assets/competences-icon/optimiser.png" alt="optimisation d'application">
+				<img src="assets/competences-icon/optimiser.png" alt="{{skills.c2.alt}}">
 				<div class="text-container-skill right-text">
-					<h3>Compétences acquises durant mon stage chez CNR</h3>
-					<p>Durant mes 2 mois de stage, j’ai dû réaliser un projet du début à la fin. Je devais développer un outil de visualisation de
-						résultats des simulations. Il devait intégrer les niveaux d'eau des seuils d’inondation pour anticiper les actions
-						éventuelles à mener sur les barrages hydraulique et prévenir au mieux les services
-						publics concernés. J'ai réaliser toutes les étapes
-						nécessaires à sa conception en autonomie, du recueil des besoins jusqu’à la rédaction d’une
-						notice d’utilisation pour les utilisateurs. </p>
+					<h3>{{skills.c2.subtitle}}</h3>
+					<p>{{skills.c2.text}}</p>
 				</div>
 				<div class="modal">
-
-					<!-- Modal content -->
 					<div class="modal-content-skill">
 						<span class="close">&times;</span>
 						<div>
-							<div class="skill-pop-text"><h3>L'organisation</h3>
-								<p>L’organisation de mon travail était aussi un élément très important étant donné
-									que le projet était conséquent. C’est ce qui m’a permis de faire :<br><br>
-									• La compréhension du domaine hydraulique <br>
-									• Le recueil des besoins des utilisateurs<br>
-									• La rédaction du cahier d’expression des besoins<br>
-									• La compréhension de l’architecture des fichiers déjà existant<br>
-									• La réflexion sur comment est-ce que j’allais concevoir mon programme<br>
-									(discussion avec l’un des informaticiens de chez CNR)<br>
-									• Le choix des technologies<br>
-									• La rédaction de la feuille de route pour savoir comment j’allais faire les tâches<br>
-									• Le développement<br>
-									• La validation du développement par l’équipe CPOP<br>
-								</p>
-								<h3>La compréhension du domaine hydraulique</h3>
-
-
-
-								<p>Au vu du sujet du projet, je devais me familiariser avec les notions hydrauliques.
-									Savoir comment fonctionnent un barrage et une usine hydro-électriques, quelles
-									sont les différents éléments qui les composent, quels principes et quelles consignes
-									sont à respecter pour une bonne exploitation efficace et sure des aménagements
-									etc... J’ai aussi dû comprendre les conséquences qu’avait une crue pour les activités
-									de CNR.</p>
-								
-								<h3>Travailler en collaboration avec une équipe</h3>
-								<p>Le besoin d’aller voir les futurs
-									utilisateurs pour leur demander si ce que j’avais fait leur convenait, afin de
-									recueillir leurs besoins.
-									A la fin de mon travail j’ai également dû présenter mon outil à l’équipe. La réflexion
-									sur comment j’allais présenter mon travail était un point sur lequel je me suis
-									appliqué afin de montrer au mieux les capacités de l’outil que j’ai développé.</p>
-								
+							<div class="skill-pop-text">
+								<h3>{{skills.c2.modal.orga.title}}</h3>
+								<p>{{skills.c2.modal.orga.text}}</p>
+								<h3>{{skills.c2.modal.hydro.title}}</h3>
+								<p>{{skills.c2.modal.hydro.text}}</p>
+								<h3>{{skills.c2.modal.collab.title}}</h3>
+								<p>{{skills.c2.modal.collab.text}}</p>
 							</div>
 							<div class="skill-pop-text">
-								<h3>Projets</h3>
-								<p>Analyse GraphMap</p>
-								<p>Subtitle translator</p>
-								<p>Application de ticket de caisse</p>
+								<h3>{{skills.c2.modal.projects.title}}</h3>
+								<p>{{skills.c2.modal.projects.p1}}</p>
+								<p>{{skills.c2.modal.projects.p2}}</p>
+								<p>{{skills.c2.modal.projects.p3}}</p>
 							</div>
 						</div>
-
-
 					</div>
-
 				</div>
 			</div>
+
+			<!-- Compétence 3 -->
 			<div class="skill-item flex-row clipath space-around">
-				<img src="assets/competences-icon/manage_project.png" alt="">
+				<img src="assets/competences-icon/manage_project.png" alt="{{skills.c3.alt}}">
 				<div class="text-container-skill left-text">
-					<h3>Optimiser des applications</h3>
-
-					<p>Proposer des applications informatiques optimisées en fonction de critères spécifiques : temps
-						d'éxécution, précision, consommations de ressources... En recensant les algorithmes et
-						structures de
-						données usuels afin d'améliorer les performances d'un programme dans des contextes contraints. En
-						formalisant et modélisant des situations complexes.</p>
-
+					<h3>{{skills.c3.subtitle}}</h3>
+					<p>{{skills.c3.text}}</p>
 				</div>
 				<div class="modal">
-
-					<!-- Modal content -->
 					<div class="modal-content-skill">
 						<span class="close">&times;</span>
-
 						<div>
-
-							
-
 							<div class="skill-pop-text">
-								<h3>Optimiser des applications</h3>
-
-
-
-								<p>Pour <strong>optimiser</strong> des applications, il est
-									nécessaire de comprendre les algorithmes et les structures de données
-									utilisés dans le programme. Il faut également prendre en compte le temps
-									d'exécution, la mémoire utilisée et la consommation des ressources. Construire,
-									Sélectionner, Analyser et optimiser</p>
-
-
-
-
-								<p>Construire et sélectionner un algorithme optimisé consiste à créer un algorithme qui résoudra de
-									manière efficace un problème.
-								</p>
-								
-								<p>Étudier les performances d'un algorithme et mettre en œuvre des modifications
-									pour améliorer celles-ci. Cela implique de comprendre le fonctionnement de
-									l'algorithme et de connaître les différentes techniques d'optimisations
-									disponibles. Il faudra prendre en compte : La taille des données, La mémoire
-									disponible
-									sur l'appareil</p>
+								<h3>{{skills.c3.modal.title}}</h3>
+								<p>{{skills.c3.modal.text1}}</p>
+								<p>{{skills.c3.modal.text2}}</p>
+								<p>{{skills.c3.modal.text3}}</p>
 							</div>
 							<div class="skill-pop-text">
-								<h3>Projets</h3>
-								<p>Analyse GraphMap</p>
-								<p>Subtitle translator</p>
-								<p>Application de ticket de caisse</p>
+								<h3>{{skills.c3.modal.projects.title}}</h3>
+								<p>{{skills.c3.modal.projects.p1}}</p>
+								<p>{{skills.c3.modal.projects.p2}}</p>
+								<p>{{skills.c3.modal.projects.p3}}</p>
 							</div>
-
 						</div>
 					</div>
 				</div>
 			</div>
-			
 
+			<!-- Compétence : Bases de données -->
 			<div class="skill-item flex-row-rev space-around">
-				<img src="assets/competences-icon/database.png" alt="">
+				<img src="assets/competences-icon/database.png" alt="{{skills.c4.alt}}">
 				<div class="text-container-skill right-text">
-					<h3>Concevoir, gérer et exploiter des bases de données </h3>
-					<p>Concevoir, gérer, administrer, et exploiter les données de l'entreprise et mettre à
-						disposition toutes
-						les informations pour un bon pilotage de l'entreprise. Veiller au respect des
-						réglementations sur la
-						vie privées et la protection des données personnelles. Prendre en compte l'impact
-						écologique lié à
-						l'utilisation du stockage de données.</p>
+					<h3>{{skills.c4.subtitle}}</h3>
+					<p>{{skills.c4.text}}</p>
 				</div>
 				<div class="modal">
-
-					<!-- Modal content -->
 					<div class="modal-content-skill">
 						<span class="close">&times;</span>
 						<div>
 							<div class="skill-pop-text">
-								<h3>Concevoir, gérer et exploiter des bases de données
-								</h3>
-								<p>Gérer des données de l'information consiste à organiser,
-									stocker et protéger des données.</p>
+								<h3>{{skills.c4.modal.intro.title}}</h3>
+								<p>{{skills.c4.modal.intro.text}}</p>
 							</div>
 							<div class="skill-pop-text">
-								<h3>Créer optimiser et intégrer</h3>
-
-								<p>Créer une base de données en fonction des besoins des clients.
-									Optimiser une base de données et l'utiliser dans une application.
-									Intégrer une base de données dans une application. Exploiter les données grâce a
-									Power
-									BI </p>
+								<h3>{{skills.c4.modal.create.title}}</h3>
+								<p>{{skills.c4.modal.create.text}}</p>
 							</div>
 							<div class="skill-pop-text">
-								<h3>Projets</h3>
-								<p>Site e-commerce</p>
-								<p>ShopList</p>
-							</div>
-						</div>
-
-					</div>
-				</div>
-			</div><div class="skill-item flex-row clipath space-around">
-				<img src="assets/competences-icon/administrer système informatique.svg" alt="">
-				<div class="text-container-skill left-text ">
-					<h3>Administrer des systèmes informatiques</h3>
-					<p>Installer, configurer, mettre a disposition, maintenir en conditions opérationnelles des
-						infrastructures, des services et des réseaux et optimiser le système informatique d'une
-						organisation. Tout en les sécurisant et en appliquant les normes en vigueur ainsi que les
-						bonne
-						pratiques architecturales en matière de sécurité.</p>
-				</div>
-				<div class="modal">
-
-					<!-- Modal content -->
-					<div class="modal-content-skill">
-						<span class="close">&times;</span>
-						<div>
-
-
-							<div class="skill-pop-text">
-								<h3>Administrer des systèmes informatiques communicants complexes
-								</h3>
-								<p>Cela consiste à gérer et maintenir en état de fonctionnement
-									un système informatique connecté.</p>
-							</div>
-
-							<div class="skill-pop-text">
-								<h3>Installer, Configurer, Déployer</h3>
-								<p>Créer et configurer un serveur web (Apache, XAMPP ou WAMPP). Rendre le serveur
-									opérationnel et le rendre disponible. Installation d'un poste pour le développement /
-									Installation de services
-									réseau.
-								</p>
-							</div>
-							<div class="skill-pop-text">
-								<h3>Projets</h3>
-								<p>Site e-commerce</p>
-								<p>ShopList</p>
+								<h3>{{skills.c4.modal.projects.title}}</h3>
+								<p>{{skills.c4.modal.projects.p1}}</p>
+								<p>{{skills.c4.modal.projects.p2}}</p>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 
-			
-			<div class="skill-item flex-row-rev clipath-last space-around">
-				<img src="assets/competences-icon/work_together.png" alt="">
-				<div class="text-container-skill right-text">
-					<h3>Collaborer au sein d'une équipe</h3>
-					<p>Acquérir, développer et exploiter les aptitudes nécessaires pour travailler
-						efficacement dans une
-						équipe informatique. En développant une communication efficace et collaborative.
-						Tout en
-						accompagnant la mise en oeuvre des évolutions informatiques</p>
+			<!-- Compétence : Administration systèmes -->
+			<div class="skill-item flex-row clipath space-around">
+				<img src="assets/competences-icon/administrer système informatique.svg" alt="{{skills.c5.alt}}">
+				<div class="text-container-skill left-text">
+					<h3>{{skills.c5.subtitle}}</h3>
+					<p>{{skills.c5.text}}</p>
 				</div>
 				<div class="modal">
-
-					<!-- Modal content -->
 					<div class="modal-content-skill">
 						<span class="close">&times;</span>
 						<div>
 							<div class="skill-pop-text">
-								<h3>Collaborer au sein d'une équipe informatique</h3>
-								<p >Savoir travailler en <strong>équipe</strong>.
-									Identifier ses aptitudes pour travailler dans une équipe. Situer
-									les rôles et leurs missions au sein d'une équipe informatique.
-								</p>
+								<h3>{{skills.c5.modal.admin.title}}</h3>
+								<p>{{skills.c5.modal.admin.text}}</p>
 							</div>
 							<div class="skill-pop-text">
-								<h3>Manager</h3>
-								<p>Gérer une équipe lors d'un projet. Respecter les contraintes du
-									projet tout en répartissant les tâches en fonction des capacités de
-									chacun.</p>
+								<h3>{{skills.c5.modal.install.title}}</h3>
+								<p>{{skills.c5.modal.install.text}}</p>
 							</div>
 							<div class="skill-pop-text">
-								<h3>Projet</h3>
-								<p>Site de E-commmerce Crouskie</p>
-								<p>Logiciel d'analyse de Graph-Map</p>
+								<h3>{{skills.c5.modal.projects.title}}</h3>
+								<p>{{skills.c5.modal.projects.p1}}</p>
+								<p>{{skills.c5.modal.projects.p2}}</p>
 							</div>
 						</div>
 					</div>
 				</div>
+			</div>
 
+			<!-- Compétence : Collaborer en équipe -->
+			<div class="skill-item flex-row-rev clipath-last space-around">
+				<img src="assets/competences-icon/work_together.png" alt="{{skills.c6.alt}}">
+				<div class="text-container-skill right-text">
+					<h3>{{skills.c6.subtitle}}</h3>
+					<p>{{skills.c6.text}}</p>
+				</div>
+				<div class="modal">
+					<div class="modal-content-skill">
+						<span class="close">&times;</span>
+						<div>
+							<div class="skill-pop-text">
+								<h3>{{skills.c6.modal.team.title}}</h3>
+								<p>{{skills.c6.modal.team.text}}</p>
+							</div>
+							<div class="skill-pop-text">
+								<h3>{{skills.c6.modal.manager.title}}</h3>
+								<p>{{skills.c6.modal.manager.text}}</p>
+							</div>
+							<div class="skill-pop-text">
+								<h3>{{skills.c6.modal.projects.title}}</h3>
+								<p>{{skills.c6.modal.projects.p1}}</p>
+								<p>{{skills.c6.modal.projects.p2}}</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</section>
 
+		<!-- Section Contact -->
 		<section id="contact-section">
 			<footer>
 				<div class="waves">
@@ -922,14 +647,17 @@
 					<div class="wave" id="wave4"></div>
 				</div>
 				<div class="flex-col">
-					<h2 class="subtitle">Me Contacter</h2>
+					<h2 class="subtitle">{{contact.title}}</h2>
 					<div class="flex-row contact">
-						<a href="mailto:thomaswarrierpro@gmail.com"><button class="flex-row"><img
-									src="assets/icons/mail.svg">Mail</button></a>
-						<a href="https://www.linkedin.com/in/thomas-warrier-3b886a222/"><button class="flex-row"><img
-									src="assets/icons/linkedin.svg">LinkedIn</button></a>
-						<a href="https://github.com/thomas-warrier"><button class="flex-row"><img
-									src="assets/icons/github.svg">GitHub</button></a>
+						<a href="mailto:thomaswarrierpro@gmail.com">
+							<button class="flex-row"><img src="assets/icons/mail.svg">{{contact.mail}}</button>
+						</a>
+						<a href="https://www.linkedin.com/in/thomas-warrier-3b886a222/">
+							<button class="flex-row"><img src="assets/icons/linkedin.svg">{{contact.linkedin}}</button>
+						</a>
+						<a href="https://github.com/thomas-warrier">
+							<button class="flex-row"><img src="assets/icons/github.svg">{{contact.github}}</button>
+						</a>
 					</div>
 				</div>
 			</footer>

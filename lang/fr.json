@@ -1,0 +1,356 @@
+{
+  "lang": "fr",
+  "title": "Portfolio Thomas Warrier",
+  "name": "Thomas Warrier",
+  "nav": {
+    "home": "Accueil",
+    "about": "Présentation",
+    "projects": "Projets",
+    "skills": "Compétences",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Bonjour !",
+    "intro": "Je suis",
+    "subtitle": "Étudiant en informatique"
+  },
+  "about": {
+    "title": "A Propos De Moi",
+    "section1": {
+      "title": "D'ou vient mon envie de faire de l'informatique ?",
+      "text": "Attiré depuis tout petit par l'informatique, ce qui a concrétisé mon envie de me lancer était de réaliser mes propres projets. J'ai donc commencé mon aventure au lycée en terminale avec un site que j'ai réalisé pour une pizzeria. Depuis mon envie d'évoluer et d'apprendre ne m'a jamais quittée et continue de me mener vers d'autres technologies. Mettre en pratique ce que j'apprends à travers mes projets personnels est la façon la plus rapide que j'ai trouvé pour progresser tout en m'amusant."
+    },
+    "downloadCV": "Télécharger CV",
+    "timeline": {
+      "title": "Mon Parcours",
+      "future": "Et si on écrivait la suite ensemble ?",
+      "engineerSchool": {
+        "title": "École d'ingénieur",
+        "text": "J'effectue actuellement mes études d'ingénieur en alternance dans l'école CPE Lyon"
+      },
+      "internship": {
+        "title": "Alternance CGI",
+        "text": "J'ai réalisé ma troisième année de BUT chez CGI et je poursuis avec eux pour mon école d'ingénieur"
+      },
+      "bachelor": {
+        "title": "BUT informatique",
+        "text": "J'ai réalisé mon BUT a l'IUT de Lyon 1 avec la spécialité développement d'application"
+      }
+    },
+    "hobbies": {
+      "title": "Qu'est ce que j'aime dans la vie ?",
+      "text": "l'informatique n'est pas ma seule passion, j'aime beaucoup le badminton que je pratique depuis 2 ans et le tennis que j'ai pratiqué pendant 9 ans",
+      "music": {
+        "title": "Écouter De La Musique",
+        "text": "La musique m'inspire quotidiennement et est pour moi un trés bon outil de motivation"
+      },
+      "racketSports": {
+        "title": "Les Sports De Raquette",
+        "text": "Le badminton, le tennis et le squash sont des sports que j'apprécie beaucoup"
+      },
+      "discover": {
+        "title": "Découvrir",
+        "text": "Découvrir et apprendre de nouvelles choses me donnent un sentiment de satisfaction"
+      },
+      "travel": {
+        "title": "Voyager",
+        "text": "Voyager est l'une de mes motivations principales. J'aime découvrir d'autres cultures"
+      }
+    }
+  },
+  "projects": {
+    "title": "Mes Projets",
+    "netflix": {
+      "alt": "Netflix TV",
+      "title": "Outil De Traduction Netflix",
+      "type": "Extension Web",
+      "context": {
+        "title": "Contexte",
+        "text": "Imaginez que vous regardez une série en anglais sous-titré anglais pour vous perfectionner. Et là le drame... Il y a un mot que vous ne comprenez pas..."
+      },
+      "solution": {
+        "title": "Solution",
+        "text": "Faire apparaître une pop-up de traduction directement dans le lecteur Netflix et avoir la possibilité d'ouvrir cette pop-up en activant un simple raccourci."
+      },
+      "projectType": {
+        "title": "Type de projet",
+        "text": "Projet personnel"
+      },
+      "technologies": {
+        "title": "Technologies utilisées",
+        "text": "Javascript / HTML / CSS"
+      },
+      "links": {
+        "title": "Lien Utile",
+        "github": "Lien Github",
+        "firefox": "Extension Firefox",
+        "chrome": "Extension Chrome"
+      }
+    },
+    "ticket": {
+      "alt": "Photo d'un téléphone avec un ticket numérique",
+      "title": "Gestionnaire De Ticket De Caisse",
+      "type": "Application Android",
+      "function": {
+        "title": "Fonctionnement",
+        "text": "Il s'agit de faciliter la gestion de vos tickets de caisse numérique en vous permettant de les récupérer directement depuis votre boîte mail et de les afficher de manière organisée sur votre appareil Android. Grâce à ce projet, vous n'aurez plus besoin de vous encombrer de papiers et pourrez accéder à vos tickets de manière pratique et rapide."
+      },
+      "firebase": {
+        "title": "Firebase",
+        "text": "Le fonctionnement de cette application repose sur un système de compte, vous permettant de créer un profil et de synchroniser vos données avec une base de données en ligne, gérée par Firebase. Cette synchronisation vous permet de retrouver vos tickets sur tous vos appareils, quels que soient leur emplacement ou leur type. En utilisant cette application, vous bénéficierez d'une solution simple et efficace pour gérer vos tickets de caisse numérique."
+      },
+      "projectType": {
+        "title": "Type de projet",
+        "text": "Projet personnel"
+      },
+      "technologies": {
+        "title": "Technologies utilisées",
+        "text": "Java / Kotlin / XML / Firebase"
+      },
+      "links": {
+        "title": "Lien Utile",
+        "github": "Lien Github",
+        "figma": "Maquette Figma",
+        "spec": "Cahier des charges"
+      }
+    },
+    "pizzeria": {
+      "alt": "Photo d'une pizza",
+      "title": "Site Pour Une Pizzeria",
+      "type": "Site Web",
+      "start": {
+        "title": "Mes débuts dans l'informatique",
+        "text": "Ce projet a été ma toute première réalisation, je l'ai réalisé lorsque j'étais en terminale avec un ami. Je n'avais à l'époque aucune connaissance en HTML et CSS. J'ai donc dû chercher par moi-même comment tout ceci fonctionnait."
+      },
+      "function": {
+        "title": "Fonctionnement",
+        "text": "Le site web a pour objectif de présenter aux internautes l'histoire de l'établissement ainsi que les plats qu'il propose. Pour réaliser ce projet, il a été nécessaire de créer un site web professionnel et attractif, qui soit adapté aux différents supports de navigation (ordinateur, tablette, smartphone). Le site doit être ergonomique et facile à utiliser, afin que les internautes puissent trouver rapidement les informations qu'ils recherchent. Pour que le projet prenne moins de temps, nous nous sommes basés sur un template HTML/CSS libre de droit."
+      },
+      "projectType": {
+        "title": "Type de projet",
+        "text": "Projet personnel"
+      },
+      "technologies": {
+        "title": "Technologies utilisées",
+        "text": "HTML / CSS"
+      },
+      "links": {
+        "title": "Lien Utile",
+        "website": "lapizzajo.fr",
+        "github": "Lien Github"
+      }
+    },
+    "portfolio": {
+      "alt": "Photo d'un téléphone avec un site portfolio",
+      "title": "Mon Portfolio",
+      "type": "Site Web",
+      "goal": {
+        "title": "L'objectif de ce projet",
+        "text": "À travers mon portfolio j'ai essayé de présenter de manière professionnelle et attractive mes projets et mes compétences à un public cible, les recruteurs. Il inclut une présentation de moi-même pour donner un aperçu de mon parcours et de ma personnalité. Le site met en avant mes projets avec des visuels et des descriptifs, ainsi que mes compétences de manière claire et structurée."
+      },
+      "projectType": {
+        "title": "Type de projet",
+        "text": "Projet personnel"
+      },
+      "technologies": {
+        "title": "Technologies utilisées",
+        "text": "HTML / CSS / Javascript / JQuery"
+      },
+      "links": {
+        "title": "Lien Utile",
+        "preview": "Aperçu De Mon Portfolio",
+        "github": "Lien Github"
+      }
+    },
+    "crouskie": {
+      "alt": "Photo d'un site de vêtements Crouskie",
+      "title": "Crouskie Web",
+      "type": "Site Web",
+      "presentation": {
+        "title": "Présentation",
+        "text": "Le site avait pour but de présenter une marque de vêtements fictive que nous avons imaginée avec mon groupe de travail. Elle se nomme Crouskie et tourne autour du thème des cookies. Les utilisateurs peuvent parcourir le catalogue de produits et collections, ajouter des articles à leur panier en choisissant couleur et taille. Le site est conçu pour offrir une expérience utilisateur agréable et intuitive."
+      },
+      "mypart": {
+        "title": "Ma partie",
+        "text": "Sur ce projet, j'ai principalement réalisé le PHP en faisant les Data Access Object qui permettent de faire le lien entre la base de données et le site web. J'ai aussi fait le HTML et CSS de la page d'accueil et des collections."
+      },
+      "projectType": {
+        "title": "Type de projet",
+        "text": "Projet universitaire"
+      },
+      "technologies": {
+        "title": "Technologies utilisées",
+        "text": "HTML / CSS / Javascript / PHP"
+      },
+      "pattern": {
+        "title": "Pattern implémenté",
+        "text": "Model View Controller (MVC)"
+      },
+      "links": {
+        "title": "Lien Utile",
+        "preview": "Aperçu Du site",
+        "github": "Lien Github",
+        "spec": "Cahier Des Charges"
+      }
+    },
+    "graphmap": {
+      "alt": "Capture d'écran de l'application Graph-Map en Java",
+      "title": "Application Graph-Map Java",
+      "type": "Application Java",
+      "presentation": {
+        "title": "Présentation",
+        "text": "Ce projet a pour vocation d'explorer et d'analyser un graphe-MAP via une interface homme-machine, entre autres une carte contenant des nœuds (localités ou sites) et des liens (routes), depuis une interface graphique manipulable par un utilisateur. L'initiative de la mise en place du projet est née d'une étude sur les graphes mathématiques au sein de l'IUT."
+      },
+      "projectType": {
+        "title": "Type de projet",
+        "text": "Projet universitaire en binôme"
+      },
+      "technologies": {
+        "title": "Technologies utilisées",
+        "text": "Java / Java Swing"
+      },
+      "links": {
+        "title": "Lien Utile",
+        "github": "Lien Github"
+      }
+    }
+  },
+  "skills": {
+    "title": "Mes Compétences",
+    "c1": {
+      "alt": "réalisation d'application",
+      "subtitle": "Compétences acquises durant mon alternance chez CGI",
+      "text": "Au cours de mon alternance, j’ai acquis des connaissances en Angular et Spring. J’ai appris à concevoir, développer et tester des applications web sécurisées et performantes. J’ai également appris à utiliser Maven et Git pour gérer le cycle de vie d’une application. J’ai renforcé mes compétences en matière de tests unitaires et d’intégration.",
+      "modal": {
+        "dev": {
+          "title": "Réaliser un développement d'application",
+          "text": "Développer (coder, tester, intégrer) une solution informatique pour un client, en respectant les besoins, en appliquant les principes algorithmiques et en veillant à la qualité du code et à sa documentation."
+        },
+        "fullapp": {
+          "title": "Partir des exigences et aller jusqu'à une application complète",
+          "text1": "Élaborer et implémenter les spécifications fonctionnelles et non fonctionnelles à partir des exigences.",
+          "text2": "Vérifier et valider la qualité de l'application par les tests."
+        },
+        "management": {
+          "title": "Gestion de Projet",
+          "text": "Compétences développées : Communication, Organisation, Résolution de problèmes, Esprit d'équipe, Gestion du temps."
+        },
+        "projects": {
+          "title": "Projets",
+          "p1": "Subtitle Translator",
+          "p2": "Graph Map",
+          "p3": "Etiket : Application de gestion de ticket de caisse",
+          "p4": "Site Web de E-commerce : Crouskie"
+        }
+      }
+    },
+    "c2": {
+      "alt": "optimisation d'application",
+      "subtitle": "Compétences acquises durant mon stage chez CNR",
+      "text": "Durant mes 2 mois de stage, j’ai réalisé un projet complet : développement d’un outil de visualisation des résultats de simulations hydrauliques. J’ai géré toutes les étapes en autonomie, du recueil des besoins à la rédaction d’une notice utilisateur.",
+      "modal": {
+        "orga": {
+          "title": "L'organisation",
+          "text": "Organisation du travail pour comprendre le domaine hydraulique, recueillir les besoins, rédiger les documents, choisir les technologies et valider le développement."
+        },
+        "hydro": {
+          "title": "La compréhension du domaine hydraulique",
+          "text": "Compréhension du fonctionnement des barrages et usines hydro-électriques, des consignes d’exploitation et des impacts des crues."
+        },
+        "collab": {
+          "title": "Travailler en collaboration avec une équipe",
+          "text": "Échanges réguliers avec les utilisateurs et présentation finale de l’outil développé à l’équipe."
+        },
+        "projects": {
+          "title": "Projets",
+          "p1": "Analyse GraphMap",
+          "p2": "Subtitle Translator",
+          "p3": "Application de ticket de caisse"
+        }
+      }
+    },
+    "c3": {
+      "alt": "optimiser des applications",
+      "subtitle": "Optimiser des applications",
+      "text": "Proposer des applications optimisées selon des critères spécifiques : temps d’exécution, précision, ressources consommées. Recenser les algorithmes et structures de données pour améliorer les performances dans des contextes contraints.",
+      "modal": {
+        "title": "Optimiser des applications",
+        "text1": "Pour optimiser une application, il faut analyser les algorithmes et structures de données utilisés.",
+        "text2": "Construire et sélectionner un algorithme adapté afin de résoudre efficacement un problème.",
+        "text3": "Étudier les performances et appliquer des optimisations en tenant compte de la taille des données et des ressources disponibles.",
+        "projects": {
+          "title": "Projets",
+          "p1": "Analyse GraphMap",
+          "p2": "Subtitle Translator",
+          "p3": "Application de ticket de caisse"
+        }
+      }
+    },
+    "c4": {
+      "alt": "base de données",
+      "subtitle": "Concevoir, gérer et exploiter des bases de données",
+      "text": "Concevoir, gérer, administrer et exploiter les données de l'entreprise et mettre à disposition toutes les informations pour un bon pilotage. Veiller au respect des réglementations sur la vie privée et la protection des données personnelles. Prendre en compte l'impact écologique lié au stockage de données.",
+      "modal": {
+        "intro": {
+          "title": "Concevoir, gérer et exploiter des bases de données",
+          "text": "Gérer les données consiste à organiser, stocker et protéger les informations."
+        },
+        "create": {
+          "title": "Créer, optimiser et intégrer",
+          "text": "Créer une base de données en fonction des besoins. Optimiser et intégrer une base dans une application. Exploiter les données avec Power BI."
+        },
+        "projects": {
+          "title": "Projets",
+          "p1": "Site e-commerce",
+          "p2": "ShopList"
+        }
+      }
+    },
+    "c5": {
+      "alt": "administration systèmes informatiques",
+      "subtitle": "Administrer des systèmes informatiques",
+      "text": "Installer, configurer, maintenir et optimiser les infrastructures, services et réseaux d'une organisation. Assurer la sécurité en appliquant les normes et bonnes pratiques architecturales.",
+      "modal": {
+        "admin": {
+          "title": "Administrer des systèmes informatiques communicants complexes",
+          "text": "Cela consiste à gérer et maintenir en état de fonctionnement un système informatique connecté."
+        },
+        "install": {
+          "title": "Installer, Configurer, Déployer",
+          "text": "Créer et configurer un serveur web (Apache, XAMPP, WAMP). Mettre en place des services réseau et des postes de développement."
+        },
+        "projects": {
+          "title": "Projets",
+          "p1": "Site e-commerce",
+          "p2": "ShopList"
+        }
+      }
+    },
+    "c6": {
+      "alt": "collaboration en équipe",
+      "subtitle": "Collaborer au sein d'une équipe",
+      "text": "Acquérir, développer et exploiter les aptitudes nécessaires pour travailler efficacement dans une équipe informatique. Développer une communication efficace et collaborative tout en accompagnant la mise en œuvre des évolutions informatiques.",
+      "modal": {
+        "team": {
+          "title": "Collaborer au sein d'une équipe informatique",
+          "text": "Savoir travailler en équipe. Identifier ses aptitudes pour collaborer efficacement. Situer les rôles et missions au sein d'une équipe informatique."
+        },
+        "manager": {
+          "title": "Manager",
+          "text": "Gérer une équipe lors d'un projet. Respecter les contraintes tout en répartissant les tâches selon les compétences de chacun."
+        },
+        "projects": {
+          "title": "Projets",
+          "p1": "Site e-commerce Crouskie",
+          "p2": "Logiciel d'analyse Graph-Map"
+        }
+      }
+    }
+  },
+  "contact": {
+    "title": "Me Contacter",
+    "mail": "Mail",
+    "linkedin": "LinkedIn",
+    "github": "GitHub"
+  }
+}
