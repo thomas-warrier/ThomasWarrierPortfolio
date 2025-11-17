@@ -63,11 +63,11 @@
 
 .timeline-wrapper .future::before {
     position: absolute;
-    top: 14%;
+    top: 13.5%;
     content: "";
     display: block;
     width: 25rem;
-    height: 2px;
+    height: 2.5px;
     /* définit l'épaisseur de la ligne à 2 pixels */
     background-color: white;
     /* définit la couleur de la ligne en rouge */
