@@ -108,6 +108,29 @@
     margin: 0 auto;
 }
 
+.timeline-item .last-date {
+    position: relative;
+    color: var(--secondary-color);
+    font-size: var(--fontsize-project-title-item);
+    font-family: var(--font-black);
+    padding-top: initial;
+
+}
+
+.timeline-item .last-date::after {
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    content: "";
+    display: block;
+    width: 25rem;
+    height: 2px;
+    /* définit l'épaisseur de la ligne à 2 pixels */
+    background-color: white;
+    /* définit la couleur de la ligne en rouge */
+    margin: 0 auto;
+}
+
 .onedate {
     position: relative;
     color: var(--secondary-color);
