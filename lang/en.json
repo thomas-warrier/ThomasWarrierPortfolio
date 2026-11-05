@@ -29,7 +29,7 @@
         "text": "I am currently studying engineering alternately at CPE Lyon"
       },
       "internship": {
-        "title": "CGI Internship",
+        "title": "CGI Work-Study",
         "text": "I completed my third year of BUT at CGI and I continue with them for my engineering school"
       },
       "bachelor": {
@@ -219,8 +219,8 @@
     "title": "My Skills",
     "c1": {
       "alt": "application development",
-      "subtitle": "Skills acquired during my internship at CGI",
-      "text": "During my internship, I gained knowledge in Angular and Spring. I learned how to design, develop, and test secure and efficient web applications. I also learned to use Maven and Git to manage the application lifecycle. I strengthened my skills in unit and integration testing.",
+      "subtitle": "Skills acquired during my work-study at CGI",
+      "text": "During my work-study, I gained knowledge in Angular and Spring. I learned how to design, develop, and test secure and efficient web applications. I also learned to use Maven and Git to manage the application lifecycle. I strengthened my skills in unit and integration testing.",
       "modal": {
         "dev": {
           "title": "Application Development",
