@@ -50,6 +50,14 @@ footer button img {
     width: 2rem;
 }
 
+.handcrafted {
+    padding: 3rem 1rem 1.5rem;
+    text-align: center;
+    font-size: 0.85rem;
+    letter-spacing: 0.08em;
+    opacity: 0.7;
+}
+
 /*footer wave animation*/
 
 footer .wave {
